@@ -23,7 +23,7 @@ main h1{
 }
 
 .menuSticky{
-    background-color: rgb(205, 147, 39, 0.86);
+    background-color: #0a141db0;
     background-size: cover;
     display: flex;
     flex-flow: column;
@@ -37,6 +37,7 @@ main h1{
     height: 80px;
     width: 100%;
 }
+
 
 .menu-icon{
     display: none;
@@ -55,8 +56,10 @@ main h1{
 }
 
 .menu:hover{
-    background: #b68417;
+    background: #082e4ddd;
     border-radius: 16px;
+    animation: fadeIn;
+    animation-duration: 2s;
 }
 
 
@@ -127,6 +130,12 @@ main h1{
     border-radius: 20px;
     box-shadow: 1px 1px 5px black, -1px -1px 5px black;
 }
+
+.img1 img:hover{
+    animation: pulse;
+    animation-duration: 1s;
+}
+
 .img2 img{
     height: 400px;
     width: 550px;
@@ -138,6 +147,12 @@ main h1{
     box-shadow: 1px 1px 5px black, -1px -1px 5px black;
 }
 
+.img2 img:hover{
+    animation: pulse;
+    animation-duration: 1s;
+}
+
+
 .img3 img{
     height: 400px;
     width: 550px;
@@ -147,6 +162,11 @@ main h1{
     margin-bottom: 10px;
     border-radius: 20px;
     box-shadow: 1px 1px 5px black, -1px -1px 5px black;
+}
+
+.img3 img:hover{
+    animation: pulse;
+    animation-duration: 1s;
 }
 
 .img-2{
@@ -256,6 +276,11 @@ main h1{
 
     }
 
+    .caja figure img:hover{
+        animation: flip;
+        animation-duration: 1s;
+    }
+
     .caja h2{
         color: white;
         margin-bottom: 25px;
@@ -283,6 +308,8 @@ main h1{
 
     .red-social a:hover{
         color: aqua;
+        animation: fadeIn;
+        animation-duration: 1s;
     }
 
     .caja-2{
@@ -299,18 +326,28 @@ main h1{
 
     /*estilos nosotros */
 
+    .bodyNosotros{
+        background: url(../Img/fondofaq2.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
     .titleNosotros{
         color: black;
         display: flex;
         justify-content: center;
         margin-bottom: 30px;
         padding-top: 30px;
+        text-shadow: 1px 1px 5px black, -1px -1px 5px black;
+        font-size: xx-large;
+        color: whitesmoke;
     }
 
     .box1 img{
         width: 500px;
         height: 340px;
         border-radius: 30px;
+        box-shadow: 1px 1px 5px black, -1px -1px 5px black;
     }
 
     .box1{
@@ -318,6 +355,9 @@ main h1{
         align-items: center;
         margin-bottom: 100px;
         justify-content: flex-end;
+        text-shadow: 1px 1px 5px black, -1px -1px 5px black;
+        font-size: x-large;
+        color: whitesmoke;
     }
 
     .contenedorNosotros div p{
@@ -331,6 +371,7 @@ main h1{
         width: 550px;
         height: 350px;
         border-radius: 30px;
+        box-shadow: 1px 1px 5px black, -1px -1px 5px black;
     }
 
     
@@ -338,14 +379,17 @@ main h1{
         display: flex;
         align-items: center;
         justify-content: flex-end;
-        margin-bottom: 100px;
-
+        margin-bottom: 100px;   
+        text-shadow: 1px 1px 5px black, -1px -1px 5px black;
+        font-size: x-large;
+        color: whitesmoke;
     }
 
     .box3 img{
         width: 550px;
         height: 350px;
         border-radius: 30px;
+        box-shadow: 1px 1px 5px black, -1px -1px 5px black;
     }
 
     .box3{
@@ -353,6 +397,9 @@ main h1{
         align-items: center;
         justify-content: flex-end;
         margin-bottom: 100px;
+        text-shadow: 1px 1px 5px black, -1px -1px 5px black;
+        font-size: x-large;
+        color: whitesmoke;
     }
 
 
@@ -419,6 +466,8 @@ main h1{
 
     .contenido .form .boton-submit:hover{
         background: rgba(7, 114, 124, 0.662);
+        animation: pulse;
+        animation-duration: 1s;
     }
 
     /* estilos faq*/
@@ -434,6 +483,7 @@ main h1{
         justify-content: center;
         color: #070f16;
         margin-bottom: 50px;
+        text-shadow: 1px 1px 5px black, -1px -1px 5px black;
     }
 
     .conteinerPadre{
