@@ -29,7 +29,7 @@ main h1{
     flex-flow: column;
     justify-content: center;
     align-items: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Oswald', sans-serif;;
     color: whitesmoke;
     text-transform: uppercase;
     text-align: center;
@@ -198,6 +198,10 @@ main h1{
 
 /* estilos catalogo */
 
+card{
+    background-color: #070d13;
+}
+
 
 .catalogoColor{
     background: url(../Img/backgroundC.jpg);
@@ -287,6 +291,11 @@ main h1{
         border-radius: 10px;
     }
 
+    .red-social{
+        display: flex;
+        justify-content: center;
+    }
+
 
 
     .red-social a:hover{
@@ -310,7 +319,7 @@ main h1{
     /*estilos nosotros */
 
     .bodyNosotros{
-        background: url(../Img/fondofaq2.jpg);
+        background: url(../Img/backgroundC.jpg);
         background-size: cover;
         background-attachment: fixed;
     }
@@ -456,7 +465,7 @@ main h1{
     /* estilos faq*/
 
     .bodyFaq{
-        background: url(../Img/fondofaq2.jpg);
+        background: url(../Img/fondoC.jpg);
         background-size: cover;
         background-attachment: fixed;
     }
@@ -492,7 +501,7 @@ main h1{
 
     /* medias */
 
-    @media screen and (max-width:800px){
+    @media screen and (max-width:800px) {
         .caja-1{
             width: 100%;
             background-color: #0a141d;
@@ -500,7 +509,17 @@ main h1{
             grid-gap: 30px;
             padding: 35px 0px;
         }
-    
+
+        .caja img{
+            width: 10rem;
+            height: 15rem;
+        }
+
+        .red-social{
+            display: flex;
+            justify-content: center;
+        }
+    }
 
         @media screen and (max-width:768px) {
             .menu-icon{
@@ -560,10 +579,11 @@ main h1{
                 height: 200px;
                 width: 225px;
                 margin-left: 40px;
+                box-sizing: border-box;
             }
 
             .img2 img{
-                width: 250px;
+                width: 225px;
                 height: 225px;
                 box-sizing: border-box;
                 margin-left: 40px;
