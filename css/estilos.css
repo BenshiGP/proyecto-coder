@@ -34,9 +34,10 @@ main h1{
     text-transform: uppercase;
     text-align: center;
     text-shadow: 1px 1px 5px black, -1px -1px 5px black;
-    height: 80px;
+    height: 120px;
     width: 100%;
     text-decoration: none;
+    
 }
 
 
@@ -214,7 +215,6 @@ card{
 
 
 .title{
-
     margin-bottom: 8px;
     color: white;
     text-shadow: 1px 1px 5px black, -1px -1px 5px black;
@@ -225,7 +225,7 @@ card{
 .relleno{
     color: white;
     text-shadow: 1px 1px 5px black, -1px -1px 5px black;
-    max-width: 25rem;
+    max-width: 35rem;
     font-size: x-large;
 }
 
