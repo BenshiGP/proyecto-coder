@@ -1,0 +1,74 @@
+@import 'utilities/variables';
+
+footer {
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    .caja-1 {
+        width: 100%;
+        background-color: $color-footer;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 50px;
+        padding: 45px 0px;
+    }
+    .caja figure {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .caja figure img {
+        width: 250px;
+        border-radius: 20px;
+        &:hover {
+            animation: flip;
+            animation-duration: 1s;
+        }
+    }
+    .caja h2 {
+        color: $color-text;
+        margin-bottom: 25px;
+        font-size: 20px;
+        text-align: center;
+    }
+    .caja p {
+        color: $color-text;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .red-social {
+        display: flex;
+        justify-content: center;
+    }
+    .red-social a {
+        display: inline-block;
+        text-decoration: none;
+        width: 45px;
+        height: 45px;
+        line-height: 45px;
+        color: $color-text;
+        margin-right: 10px;
+        background-color: $color-icons;
+        text-align: center;
+        transition: all 300ms ease;
+        border-radius: 10px;
+        &:hover {
+            color: $color-h;
+            animation: fadeIn;
+            animation-duration: 1s;
+        }
+    }
+    .caja-2 {
+        background-color: $color-footer;
+        padding: 15px 10px;
+        text-align: center;
+        color: $color-text;
+        box-sizing: border-box;
+    }
+
+    .caja-2 small {
+        font-size: 20px;
+    }
+}

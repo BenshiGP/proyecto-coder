@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Oswald', sans-serif; }
+
+footer {
+  width: 100%;
+  background-color: black; }
+  footer .caja-1 {
+    width: 100%;
+    background-color: #0a141d;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px; }
+  footer .caja figure {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  footer .caja figure img {
+    width: 250px;
+    border-radius: 20px; }
+    footer .caja figure img:hover {
+      animation: flip;
+      animation-duration: 1s; }
+  footer .caja h2 {
+    color: #7d7a7a;
+    margin-bottom: 25px;
+    font-size: 20px;
+    text-align: center; }
+  footer .caja p {
+    color: #7d7a7a;
+    margin-bottom: 10px;
+    text-align: center; }
+  footer .red-social {
+    display: flex;
+    justify-content: center; }
+  footer .red-social a {
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #7d7a7a;
+    margin-right: 10px;
+    background-color: #070d13;
+    text-align: center;
+    transition: all 300ms ease;
+    border-radius: 10px; }
+    footer .red-social a:hover {
+      color: #0ae4e4;
+      animation: fadeIn;
+      animation-duration: 1s; }
+  footer .caja-2 {
+    background-color: #0a141d;
+    padding: 15px 10px;
+    text-align: center;
+    color: #7d7a7a;
+    box-sizing: border-box; }
+  footer .caja-2 small {
+    font-size: 20px; }
