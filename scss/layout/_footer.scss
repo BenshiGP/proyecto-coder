@@ -11,64 +11,70 @@ footer {
         grid-template-columns: repeat(3, 1fr);
         grid-gap: 50px;
         padding: 45px 0px;
-    }
-    .caja figure {
-        width: 100%;
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .caja figure img {
-        width: 250px;
-        border-radius: 20px;
-        &:hover {
-            animation: flip;
-            animation-duration: 1s;
+        .caja{
+            figure{
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                img{
+                    width: 250px;
+                    border-radius: 20px;
+                    &:hover{
+                        animation: flip;
+                        animation-duration: 1s;
+                    }
+                }
+            }
         }
-    }
-    .caja h2 {
-        color: $color-text;
-        margin-bottom: 25px;
-        font-size: 20px;
-        text-align: center;
-    }
-    .caja p {
-        color: $color-text;
-        margin-bottom: 10px;
-        text-align: center;
-    }
-    .red-social {
-        display: flex;
-        justify-content: center;
-    }
-    .red-social a {
-        display: inline-block;
-        text-decoration: none;
-        width: 45px;
-        height: 45px;
-        line-height: 45px;
-        color: $color-text;
-        margin-right: 10px;
-        background-color: $color-icons;
-        text-align: center;
-        transition: all 300ms ease;
-        border-radius: 10px;
-        &:hover {
-            color: $color-h;
-            animation: fadeIn;
-            animation-duration: 1s;
+        .caja{
+            h2{
+                color: $color-text;
+                margin-bottom: 25px;
+                font-size: 20px;
+                text-align: center;
+            }
+            p{
+                color: $color-p;
+                margin-bottom: 10px;
+                text-align: center;
+            }
         }
-    }
-    .caja-2 {
-        background-color: $color-footer;
+        .caja{
+            .red-social{
+                display: flex;
+                justify-content: center;
+                a{
+                    display: inline-block;
+                    text-decoration: none;
+                    width: 45px;
+                    height: 45px;
+                    line-height: 45px;
+                    color: white;
+                    margin-right: 10px;
+                    background-color: #070d13;
+                    text-align: center;
+                    transition: all 300ms ease;
+                    border-radius: 10px;
+                    &:hover{
+                        color: #0ae4e4;
+                        animation: fadeIn;
+                        animation-duration: 1s;
+                    }
+                }
+            }
+        }
+        }
+    .caja-2{
+        background-color: #0a141d;
         padding: 15px 10px;
         text-align: center;
-        color: $color-text;
+        color: white;
         box-sizing: border-box;
+        small{
+            font-size: 20px;
+        }
+    }    
     }
 
-    .caja-2 small {
-        font-size: 20px;
-    }
-}
