@@ -139,13 +139,14 @@ header nav ul .menu {
     font-weight: 300;
     margin-bottom: 70px;
     text-shadow: 1px 1px 5px black, -1px -1px 5px black;
-    color: white; }
-  .contenedorHome .img1 {
+    color: white;
+    padding-left: 10px; }
+  .contenedorHome .ilustracion {
     display: flex;
     align-items: center;
     justify-content: flex-end;
     margin-bottom: 100px; }
-    .contenedorHome .img1 img {
+    .contenedorHome .ilustracion img {
       height: 400px;
       width: 550px;
       justify-content: flex-end;
@@ -154,40 +155,6 @@ header nav ul .menu {
       margin-bottom: 10px;
       border-radius: 20px;
       box-shadow: 1px 1px 5px black, -1px -1px 5px black; }
-      .contenedorHome .img1 img:hover {
-        animation: pulse;
-        animation-duration: 1s; }
-  .contenedorHome .img2 {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    margin-bottom: 100px; }
-    .contenedorHome .img2 img {
-      height: 400px;
-      width: 550px;
-      justify-content: flex-end;
-      display: flex;
-      align-items: center;
-      margin-bottom: 10px;
-      border-radius: 20px;
-      box-shadow: 1px 1px 5px black, -1px -1px 5px black; }
-      .contenedorHome .img2 img:hover {
-        animation: pulse;
-        animation-duration: 1s; }
-  .contenedorHome .img3 {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    margin-bottom: 100px; }
-    .contenedorHome .img3 img {
-      height: 400px;
-      width: 550px;
-      justify-content: flex-end;
-      display: flex;
-      align-items: center;
-      margin-bottom: 10px;
-      border-radius: 20px;
-      box-shadow: 1px 1px 5px black, -1px -1px 5px black; }
-      .contenedorHome .img3 img:hover {
+      .contenedorHome .ilustracion img:hover {
         animation: pulse;
         animation-duration: 1s; }
