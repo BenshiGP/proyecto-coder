@@ -22,14 +22,14 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center; }
-  footer .caja figure img {
-    width: 250px;
-    border-radius: 20px; }
-    footer .caja figure img:hover {
-      animation: flip;
-      animation-duration: 1s; }
+    footer .caja figure img {
+      width: 250px;
+      border-radius: 20px; }
+      footer .caja figure img:hover {
+        animation: flip;
+        animation-duration: 1s; }
   footer .caja h2 {
-    color: #7d7a7a;
+    color: white;
     margin-bottom: 25px;
     font-size: 20px;
     text-align: center; }
@@ -40,27 +40,27 @@ footer {
   footer .red-social {
     display: flex;
     justify-content: center; }
-  footer .red-social a {
-    display: inline-block;
-    text-decoration: none;
-    width: 45px;
-    height: 45px;
-    line-height: 45px;
-    color: #7d7a7a;
-    margin-right: 10px;
-    background-color: #070d13;
-    text-align: center;
-    transition: all 300ms ease;
-    border-radius: 10px; }
-    footer .red-social a:hover {
-      color: #0ae4e4;
-      animation: fadeIn;
-      animation-duration: 1s; }
+    footer .red-social a {
+      display: inline-block;
+      text-decoration: none;
+      width: 45px;
+      height: 45px;
+      line-height: 45px;
+      color: white;
+      margin-right: 10px;
+      background-color: #070d13;
+      text-align: center;
+      transition: all 300ms ease;
+      border-radius: 10px; }
+      footer .red-social a:hover {
+        color: #0ae4e4;
+        animation: fadeIn;
+        animation-duration: 1s; }
   footer .caja-2 {
     background-color: #0a141d;
     padding: 15px 10px;
     text-align: center;
-    color: #7d7a7a;
+    color: white;
     box-sizing: border-box; }
-  footer .caja-2 small {
-    font-size: 20px; }
+    footer .caja-2 small {
+      font-size: 20px; }
