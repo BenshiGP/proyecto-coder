@@ -1,4 +1,5 @@
     @import 'utilities/variables';
+    @import 'utilities/mapas';
 
     .menuSticky{
         background-color: #0a141db0;
@@ -11,7 +12,7 @@
         color: $color-text;
         text-transform: uppercase;
         text-align: center;
-        text-shadow: 1px 1px 5px black, -1px -1px 5px black;
+        text-shadow: map-get($map: $standard, $key: border-standard);
         height: 120px;
         width: 100%;
         text-decoration: none;
@@ -43,5 +44,11 @@
                     }
                 }
             }
+        }
+        #check{
+            display: none;
+        }
+        .bar-btn{
+            display: none;
         }
     }

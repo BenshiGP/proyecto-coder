@@ -1,3 +1,4 @@
+@import 'utilities/mapas';
 
 .contenedorHome{
     display: flex;
@@ -11,7 +12,7 @@
             font-size: x-large;
             font-weight: 300;
             margin-bottom: 70px;
-            text-shadow: 1px 1px 5px black, -1px -1px 5px black;
+            text-shadow: map-get($map: $standard, $key: border-standard);
             color: $color-text;
             padding-left: 10px;
         }
@@ -29,7 +30,7 @@
             align-items: center;
             margin-bottom: 10px;
             border-radius: 20px;
-            box-shadow: 1px 1px 5px black, -1px -1px 5px black;
+            box-shadow: map-get($map: $standard, $key: border-standard);
             &:hover{
                 animation: pulse;
                 animation-duration: 1s;
