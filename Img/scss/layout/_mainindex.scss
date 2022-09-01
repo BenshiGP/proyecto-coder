@@ -1,0 +1,39 @@
+
+.contenedorHome{
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    padding-left: 20px;
+    div{
+        p{
+            max-width: 30rem;
+            display: inline-block;
+            font-size: x-large;
+            font-weight: 300;
+            margin-bottom: 70px;
+            text-shadow: 1px 1px 5px black, -1px -1px 5px black;
+            color: $color-text;
+            padding-left: 10px;
+        }
+    }
+    .ilustracion{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        margin-bottom: 100px;
+        img{
+            height: 400px;
+            width: 550px;
+            justify-content: flex-end;
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+            border-radius: 20px;
+            box-shadow: 1px 1px 5px black, -1px -1px 5px black;
+            &:hover{
+                animation: pulse;
+                animation-duration: 1s;
+            }        
+        }
+    }
+}
