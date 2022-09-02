@@ -1,0 +1,32 @@
+@import 'utilities/mapas';
+
+.body-i{
+    height: 100%;
+    width: map-get($map: $standard, $key: width-standard);
+    background-image: url(../Img/backgroundmain.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    .imgFondo{
+        background-size: cover;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        box-sizing: border-box;
+        height: 100%;
+        width: map-get($map: $standard, $key: width-standard);
+        margin-bottom: 80px;
+        border-radius: 20px;
+        box-shadow: map-get($map: $standard, $key: border-standard);
+    
+    }
+    .encabezado{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+        padding-left: 15px;
+        font-size: xx-large;
+        color: rgb(255, 255, 255);
+        text-shadow: map-get($map: $standard, $key: border-standard);
+    
+    }
+}
