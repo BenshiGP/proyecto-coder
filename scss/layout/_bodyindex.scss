@@ -3,8 +3,6 @@
 .body-i{
     height: 100%;
     width: map-get($map: $standard, $key: width-standard);
-    background-image: url(../Img/backgroundmain.jpg);
-    background-size: cover;
     background-attachment: fixed;
     .imgFondo{
         background-size: cover;
