@@ -1,54 +1,6 @@
     @import 'utilities/variables';
     @import 'utilities/mapas';
 
-    .menuSticky{
-        background-color: #0a141db0;
-        background-size: cover;
-        display: flex;
-        flex-flow: column;
-        justify-content: center;
-        align-items: center;
-        font-family: 'Oswald', sans-serif;;
-        color: $color-text;
-        text-transform: uppercase;
-        text-align: center;
-        text-shadow: map-get($map: $standard, $key: border-standard);
-        height: 120px;
-        width: 100%;
-        text-decoration: none;
-        .colorhh{
-            color: $color-text;
-            text-decoration: none;
-            letter-spacing: 2px;
-            font-size: 40px;
-        }
-    }
-
     header{
-        nav{
-            ul{
-                .menu{
-                    color: whitesmoke;
-                    margin: 0 24px;
-                    padding: 0.5rem 1rem;
-                    text-decoration: none;
-                    font-size: 15px;
-                    transition: all 0.2ms linear;
-                    border-radius: 10px;
-                    transition: all 1s ease;
-                    &:hover{
-                        background: #082e4ddd;
-                        border-radius: 16px;
-                        animation: fadeIn;
-                        animation-duration: 2s;
-                    }
-                }
-            }
-        }
-        #check{
-            display: none;
-        }
-        .bar-btn{
-            display: none;
-        }
+        padding-bottom: 4.375rem;
     }

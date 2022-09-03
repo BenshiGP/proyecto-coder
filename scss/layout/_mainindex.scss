@@ -1,10 +1,24 @@
-@import 'utilities/mapas';
+
 
 .contenedorHome{
-    display: flex;
-    align-items: center;
-    flex-flow: column;
-    padding-left: 20px;
+        padding: 50px 80px;
+        line-height: 1.5rem;
+        display: grid;
+        grid-template-areas:
+            "leftImg rightText"
+            "leftText rightImg"
+            "leftImg2 rightText2"
+            ;
+        gap: 2rem;
+        align-items: center;
+        overflow: hidden;
+        .leftImg{
+            grid-area: leftImg;
+        }
+        .rightImg{
+            grid-area: rightImg;
+        }
+    
     div{
         p{
             max-width: 30rem;
@@ -15,26 +29,13 @@
             text-shadow: map-get($map: $standard, $key: border-standard);
             color: $color-text;
             padding-left: 10px;
-        }
+            text-shadow: 1px 1px 5px black;
+        }  
     }
-    .ilustracion{
-        display: flex;
-        align-items: center;
-        justify-content: flex-end;
-        margin-bottom: 100px;
-        img{
-            height: 400px;
-            width: 550px;
-            justify-content: flex-end;
-            display: flex;
-            align-items: center;
-            margin-bottom: 10px;
-            border-radius: 20px;
-            box-shadow: map-get($map: $standard, $key: border-standard);
-            &:hover{
-                animation: pulse;
-                animation-duration: 1s;
-            }        
-        }
-    }
+    img{
+        height: 400px;
+        width: 550px;
+        border-radius: 1.5rem;
+        box-shadow: 1px 1px 5px black;
+    }  
 }
