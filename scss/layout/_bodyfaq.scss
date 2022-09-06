@@ -1,5 +1,65 @@
 .bodyFaq{
-    background-color: #dfdfdf;
     text-shadow: 1px 1px 3px black;
     font-family:'Oswald', sans-serif;
+    background-image: url(../Img/img/fondofaq1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.faqTitle{
+    color: rgb(0, 0, 0);
+    margin-left: 60px;
+    font-size: 3rem;
+}
+
+.mainFaq{
+    color: rgb(0, 0, 0);
+    .secFaq{
+        .faq{
+            margin-left: 15px;
+            .listaFaq{
+                list-style-type: disc;
+                margin-left: 30px;
+                font-size: 1rem;
+            }
+        }
+        .faqParrafo{
+            margin-left: 30px;
+        }
+
+        .form-input, .form-textarea{
+            background: rgba(0,0,0,.7);
+            border: none;
+            outline: none;
+            border-bottom: 2px solid lightgray;
+            width: 50%;
+            padding: 12px;
+            margin-bottom: 30px;
+            border-radius: 2px;
+            font-size: 14px;
+            color: #FFF;
+        }
+        
+        .form-label{
+            color: white;
+            display:none;
+        }
+        
+        .boton-submit{
+            width: 70%;
+            font-family: 'Oswald', sans-serif;
+            font-size: 15px;
+            outline: none;
+            padding: 15px 0;
+            background: lightblue;
+            cursor: pointer;
+            border-radius: 30px;
+            transition: all 1.5s ease;
+            &:hover{
+                background: rgba(7, 114, 124, 0.662);
+                animation: pulse;
+                animation-duration: 1s;
+            }
+        }
+    }
 }

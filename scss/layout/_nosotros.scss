@@ -1,0 +1,36 @@
+@import 'utilities/mixin';
+
+.bodyNosotros{
+    background: url(../../Img/Img/backgroundC.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+main{
+    .titleNosotros{
+        color: black;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+        padding-top: 30px;
+        text-shadow: 1px 1px 5px black, -1px -1px 5px black;
+        font-size: 3rem;
+        color: whitesmoke;
+    }
+    .contenedorNosotros{
+        .box{
+            @include grid;
+            
+            img{
+                @include img;
+            }
+            p{
+                max-width: 30rem;
+                display: inline-block;
+                margin-left: 150px;
+                color: whitesmoke;
+                font-size: 1.5rem;
+            }
+        }
+    }
+}

@@ -29,9 +29,10 @@
           href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
         />
 
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
         <title>Beer Crafting</title>
     </head>
-    <body class="catalogoColor">
         <body class="body-i bg-secondary">
             <header>
                 <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
@@ -97,9 +98,27 @@
                   </nav>
             </header>
         <main class="body-i">
-            <div class="banner">
-                <img src="../Img/imgfondo.jpg" alt="fondomain" />
+          <div class="banner">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="../Img/imgfondo.svg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="../Img/bar1.svg" class="d-block w-100" alt="...">
+                </div>
+      
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
             </div>
+          </div>
         </main>
 
         <h1 class="title container-fluid">Nuestas Cervezas</h1>
@@ -109,78 +128,72 @@
             que mas te convenga.
         </p>
 
-        <section class="row">
-            <div class="card container-fluid mb-5 bg-dark col-4" style="width: 15rem">
-                <img src="../Productos/p10.jpg" class="card-img-top" alt="..." />
-                <div class="card-body">
-                    <h5 class="card-title text-light">Cerveza Artesanal.</h5>
-                    <p class="card-text text-light">Precio $$$</p>
+        <section>
+          <div class="container">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 ">
+              <div class="col">
+                <div class="card" style="width: 18rem;">
+                  <img src="../Productos/p9.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Cerveza artezanal </h5>
+                    <h6 class="card-text">Precio $$</h6>
                     <a href="#" class="btn btn-primary">Comprar</a>
+                  </div>
                 </div>
-            </div>
+              </div>
+              <div class="col">
+                <div class="card" style="width: 18rem;">
+                  <img src="../Productos/p9.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Cerveza artezanal </h5>
+                    <h6 class="card-text">Precio $$</h6>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card" style="width: 18rem;">
+                  <img src="../Productos/p9.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Cerveza artezanal </h5>
+                    <h6 class="card-text">Precio $$</h6>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card" style="width: 18rem;">
+                  <img src="../Productos/p9.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Cerveza artezanal </h5>
+                    <h6 class="card-text">Precio $$</h6>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card" style="width: 18rem;">
+                  <img src="../Productos/p9.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Cerveza artezanal </h5>
+                    <h6 class="card-text">Precio $$</h6>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card" style="width: 18rem;">
+                  <img src="../Productos/p9.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Cerveza artezanal </h5>
+                    <h6 class="card-text">Precio $$</h6>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                  </div>
+                </div>
+              </div>
 
-            <div class="card container-fluid mb-5 bg-dark col-4" style="width: 15rem">
-                <img src="../Productos/p5.jpg" class="card-img-top" alt="..." />
-                <div class="card-body">
-                    <h5 class="card-title text-light">Cerveza Artesanal.</h5>
-                    <p class="card-text text-light">Precio $$$</p>
-                    <a href="#" class="btn btn-primary">Comprar</a>
-                </div>
             </div>
-
-            <div class="card container-fluid mb-5 bg-dark col-4" style="width: 15rem">
-                <img src="../Productos/p8.jpg" class="card-img-top" alt="..." />
-                <div class="card-body">
-                    <h5 class="card-title text-light">Cerveza Artesanal.</h5>
-                    <p class="card-text text-light">Precio $$$</p>
-                    <a href="#" class="btn btn-primary">Comprar</a>
-                </div>
-            </div>
-
-            <div class="card container-fluid mb-5 bg-dark col-4" style="width: 15rem">
-                <img src="../Productos/p3.jpg" class="card-img-top" alt="..." />
-                <div class="card-body">
-                    <h5 class="card-title text-light">Cerveza Artesanal.</h5>
-                    <p class="card-text text-light">Precio $$$</p>
-                    <a href="#" class="btn btn-primary">Comprar</a>
-                </div>
-            </div>
-
-            <div class="card container-fluid mb-5 bg-dark col-4" style="width: 15rem">
-                <img src="../Productos/p4.jpg" class="card-img-top" alt="..." />
-                <div class="card-body">
-                    <h5 class="card-title text-light">Cerveza Artesanal.</h5>
-                    <p class="card-text text-light">Precio $$$</p>
-                    <a href="#" class="btn btn-primary">Comprar</a>
-                </div>
-            </div>
-
-            <div class="card container-fluid mb-5 bg-dark col-4" style="width: 15rem">
-                <img src="../Productos/p7.jpg" class="card-img-top" alt="..." />
-                <div class="card-body">
-                    <h5 class="card-title text-light">Cerveza Artesanal.</h5>
-                    <p class="card-text text-light">Precio $$$</p>
-                    <a href="#" class="btn btn-primary">Comprar</a>
-                </div>
-            </div>
-
-            <div class="card container-fluid mb-5 bg-dark col-4" style="width: 15rem">
-                <img src="../Productos/p9.jpg" class="card-img-top" alt="..." />
-                <div class="card-body">
-                    <h5 class="card-title text-light">Cerveza Artesanal.</h5>
-                    <p class="card-text text-light">Precio $$$</p>
-                    <a href="#" class="btn btn-primary">Comprar</a>
-                </div>
-            </div>
-
-            <div class="card container-fluid mb-5 bg-dark col-4" style="width: 15rem">
-                <img src="../Productos/p9.jpg" class="card-img-top" alt="..." />
-                <div class="card-body">
-                    <h5 class="card-title text-light">Cerveza Artesanal.</h5>
-                    <p class="card-text text-light">Precio $$$</p>
-                    <a href="#" class="btn btn-primary">Comprar</a>
-                </div>
-            </div>
+          </div>
         </section>
 
         <footer id="pie-pagina">

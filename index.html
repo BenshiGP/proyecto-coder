@@ -29,6 +29,8 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
     />
 
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <title>Beer Crafting</title>
   </head>
   <body class="body-i bg-secondary">
@@ -124,30 +126,30 @@
 </div>
 
     <div class="encabezado">
-      <h1>Amor cervecero, Amor verdadero.</h1>
+      <h1 data-aos="fade-up">Amor cervecero, Amor verdadero.</h1>
     </div>
 
     <main class="contenedorHome">
 
-      <img class="leftImg" src="img/birra1.jpg" alt="">
+      <img class="leftImg" data-aos="fade-right" src="img/birra1.jpg" alt="ilustracion de cerveza en bar ">
       <div class="rightText">
-        <p>
+        <p data-aos="fade-left">
           Podras encontrar una gran y diversa variedad de cervezas en nuestros
           locales, aparte saldrás fascinado con la gran y diversa variedad de sabores y texturas que tienen nuestras birras .
         </p>
       </div>
 
-      <img class="rightImg" src="img/picada.jpg" alt="">
+      <img class="rightImg" data-aos="fade-left" src="img/picada.jpg" alt="ilustracion de picada con una cerveza">
       <div class="leftText">        
-        <p>
+        <p data-aos="fade-right">
         Siempre es mejor refrescar el paladar acompañado de los que mas
         quieres y obviamente acompañado de una buena picada para acompañar esa refrescante birra.
       </p>
     </div>
 
-    <img class="leftImg2" src="img/birra4.jpg" alt="">
+    <img class="leftImg2" data-aos="fade-right" src="img/birra4.jpg" alt="ilustracion amigas tomando cerveza">
     <div class="rightText2">
-      <p>
+      <p data-aos="fade-left">
         No te pierdas ningun momento especial porque tenes que ir a comprar la
         birra, BeerCrafting posee con un gran servicio de delivery a domicilio a un precio muy barato.
       </p>             
@@ -156,12 +158,12 @@
     </main>
 
 
-    <footer id="pie-pagina">
+    <footer id="pie-pagina" data-aos="fade-up">
       <div class="caja-1">
         <div class="caja">
           <figure>
             <a href="Secciones/nosotros.html">
-              <img src="Img/logo.png" alt="" />
+              <img src="Img/logo.png" alt="logo pagina footer" />
             </a>
           </figure>
         </div>
@@ -186,6 +188,11 @@
         >
       </div>
     </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 
     <script
       src="https://kit.fontawesome.com/b8ab94815a.js"

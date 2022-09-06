@@ -54,7 +54,7 @@ footer {
         transition: all 300ms ease;
         border-radius: 10px; }
         footer .caja-1 .caja .red-social a:hover {
-          color: #0ae4e4;
+          color: #0f5bd6;
           animation: fadeIn;
           animation-duration: 1s; }
   footer .caja-2 {
@@ -74,14 +74,14 @@ header {
   box-sizing: border-box;
   height: 100%;
   width: 100%;
-  margin-bottom: 80px; }
+  margin-bottom: 10px; }
 
 .body-i .banner img {
   background-size: cover;
   box-sizing: border-box;
   height: 100%;
   width: 100%;
-  margin-bottom: 80px; }
+  margin-bottom: 50px; }
 
 .body-i .encabezado {
   display: flex;
@@ -104,6 +104,8 @@ header {
     grid-area: leftImg; }
   .contenedorHome .rightImg {
     grid-area: rightImg; }
+  .contenedorHome .leftText {
+    grid-area: leftText; }
   .contenedorHome div p {
     max-width: 30rem;
     display: inline-block;
@@ -169,6 +171,147 @@ header {
       animation-duration: 1s; }
 
 .bodyFaq {
-  background-color: #dfdfdf;
   text-shadow: 1px 1px 3px black;
-  font-family: 'Oswald', sans-serif; }
+  font-family: 'Oswald', sans-serif;
+  background-image: url(../Img/img/fondofaq1.jpg);
+  background-attachment: fixed;
+  background-size: cover; }
+
+.faqTitle {
+  color: black;
+  margin-left: 60px;
+  font-size: 3rem; }
+
+.mainFaq {
+  color: black; }
+  .mainFaq .secFaq .faq {
+    margin-left: 15px; }
+    .mainFaq .secFaq .faq .listaFaq {
+      list-style-type: disc;
+      margin-left: 30px;
+      font-size: 1rem; }
+  .mainFaq .secFaq .faqParrafo {
+    margin-left: 30px; }
+  .mainFaq .secFaq .form-input, .mainFaq .secFaq .form-textarea {
+    background: rgba(0, 0, 0, 0.7);
+    border: none;
+    outline: none;
+    border-bottom: 2px solid lightgray;
+    width: 50%;
+    padding: 12px;
+    margin-bottom: 30px;
+    border-radius: 2px;
+    font-size: 14px;
+    color: #FFF; }
+  .mainFaq .secFaq .form-label {
+    color: white;
+    display: none; }
+  .mainFaq .secFaq .boton-submit {
+    width: 70%;
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    outline: none;
+    padding: 15px 0;
+    background: lightblue;
+    cursor: pointer;
+    border-radius: 30px;
+    transition: all 1.5s ease; }
+    .mainFaq .secFaq .boton-submit:hover {
+      background: rgba(7, 114, 124, 0.662);
+      animation: pulse;
+      animation-duration: 1s; }
+
+.bodyNosotros {
+  background: url(../../Img/Img/backgroundC.jpg);
+  background-size: cover;
+  background-attachment: fixed; }
+
+main .titleNosotros {
+  color: black;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  padding-top: 30px;
+  text-shadow: 1px 1px 5px black, -1px -1px 5px black;
+  font-size: 3rem;
+  color: whitesmoke; }
+
+main .contenedorNosotros .box {
+  padding: 50px 80px;
+  line-height: 1.5rem;
+  display: grid;
+  grid-template-areas: "leftImg rightText" "leftText rightImg" "leftImg2 rightText2";
+  gap: 2rem;
+  align-items: center;
+  overflow: hidden; }
+  main .contenedorNosotros .box .leftImg {
+    grid-area: leftImg; }
+  main .contenedorNosotros .box .rightImg {
+    grid-area: rightImg; }
+  main .contenedorNosotros .box .leftText {
+    grid-area: leftText; }
+  main .contenedorNosotros .box img {
+    height: 400px;
+    width: 550px;
+    border-radius: 1.5rem;
+    box-shadow: 1px 1px 5px black; }
+  main .contenedorNosotros .box p {
+    max-width: 30rem;
+    display: inline-block;
+    margin-left: 150px;
+    color: whitesmoke;
+    font-size: 1.5rem; }
+
+@media screen and (max-width: 768px) {
+  footer {
+    width: 100%;
+    background-color: black; }
+    footer .caja-1 {
+      width: 100%;
+      background-color: #0a141d;
+      grid-template-columns: repeat(1, 1fr);
+      grid-gap: 30px;
+      padding: 35px 0px; }
+      footer .caja-1 .caja .red-social {
+        display: flex;
+        justify-content: center; }
+      footer .caja-1 .caja img {
+        width: 10rem;
+        height: 15rem; }
+  .contenedorHome {
+    display: flex;
+    flex-direction: column; }
+    .contenedorHome div p {
+      max-width: 20rem;
+      display: inline-block;
+      font-size: large;
+      font-weight: 300;
+      margin-bottom: 70px;
+      text-shadow: 1px 1px 5px black -1px -1px 5px black;
+      color: white;
+      padding-left: 10px;
+      text-shadow: 1px 1px 5px black; }
+    .contenedorHome img {
+      height: 250px;
+      width: 300px;
+      border-radius: 1.5rem;
+      box-shadow: 1px 1px 5px black; }
+  main .titleNosotros {
+    font-size: xx-large; }
+  main .contenedorNosotros .box {
+    display: flex;
+    flex-direction: column; }
+    main .contenedorNosotros .box p {
+      max-width: 30rem;
+      display: inline-block;
+      font-size: large;
+      margin-bottom: 70px;
+      text-shadow: 1px 1px 5px black -1px -1px 5px black;
+      color: white;
+      padding-left: 10px;
+      text-shadow: 1px 1px 5px black; }
+    main .contenedorNosotros .box img {
+      height: 250px;
+      width: 300px;
+      border-radius: 1.5rem;
+      box-shadow: 1px 1px 5px black; } }

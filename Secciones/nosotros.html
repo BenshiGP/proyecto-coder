@@ -29,11 +29,12 @@
         href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
       />
 
+      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 
         <title>Beer Crafting</title>
     </head>
     <body class="bodyNosotros">
-        <body class="body-i bg-secondary">
             <header>
                 <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
                     <div class="container-fluid">
@@ -97,33 +98,35 @@
             
                       </ul>           
                   </nav>
-            </header>        <main>
+            </header>        
+            
+          <main>
             <h1 class="titleNosotros">Acerca de Nosotros</h1>
 
             <div class="contenedorNosotros">
-                <div class="box1">
-                    <img src="../Img/nosotros.jpg" alt="" />
-                    <p>
-                        La cerveza artesanal se elabora a partir de ingredientes totalmente
-                        naturales, que no llevan aditivos artificiales ni conservantes,
-                        simplemente agua, levadura, maltas y lúpulos.Por lo tanto, en la
-                        etiqueta de las cervezas artesanas no encontraremos nunca ni
-                        conservantes ni antioxidantes añadidos artificialmente.
+                <div class="box">
+                    <img class="leftImg" src="../Img/nosotros2.jpg" alt="" />
+                    <p class="rightText">
+                      Nosotros somos Beer Crafting, somos los encargados de elaborar las
+                      cervezas mas ricas y refrescantes de la zona. Contamos con un amplio
+                      catálogo con una extensa variedad de sabores, aromas, y porcentajes.
                     </p>
                 </div>
 
-                <div class="box2">
-                    <img src="../Img/nosotros2.jpg" alt="" />
-                    <p>
-                        Nosotros somos Beer Crafting, somos los encargados de elaborar las
-                        cervezas mas ricas y refrescantes de la zona. Contamos con un amplio
-                        catálogo con una extensa variedad de sabores, aromas, y porcentajes.
+                <div class="box">
+                    <img class="rightImg" data-aos="fade-left" src="../Img/nosotros.jpg" alt="" />
+                    <p class="leftText" data-aos="fade-right">
+                      La cerveza artesanal se elabora a partir de ingredientes totalmente
+                      naturales, que no llevan aditivos artificiales ni conservantes,
+                      simplemente agua, levadura, maltas y lúpulos.Por lo tanto, en la
+                      etiqueta de las cervezas artesanas no encontraremos nunca ni
+                      conservantes ni antioxidantes añadidos artificialmente.
                     </p>
                 </div>
 
-                <div class="box3">
-                    <img src="../Img/malta.jpg" alt="" />
-                    <p>
+                <div class="box">
+                    <img class="leftImg2" data-aos="fade-right" src="../Img/malta.jpg" alt="" />
+                    <p class="rightText2" data-aos="fade-left">
                         La malta como segundo ingrediente más utilizado (por cantidad) tras el
                         agua, es esencial en la elaboración de la cerveza. Durante el proceso
                         de macerado el almidón presente en la malta se convierte en azúcares
@@ -131,11 +134,26 @@
                         líquido.
                     </p>
                 </div>
+
+                <div class="box">
+                  <img class="rightImg" data-aos="fade-left" src="../Img/agua.jpg" alt="" />
+                  <p class="leftText" data-aos="fade-right">
+                    El agua de nuestras cervezas supone el 95% del peso de las mismas. Otra diferencia la encontramos en el filtrado. Mientras que a la cerveza artesanal se realiza un filtrado manual, sin intervenciones de grandes maquinarias, la cerveza industrial realiza un filtrado químico, que elimina los residuos pero también destruye levaduras y proteínas de la cerveza, restándole gusto, aroma y propiedades. Aun así, hay que decir que cada vez son más las cerveceras artesanas que optan por sacar estos sedimentos para poder hacer la cerveza visualmente más atractiva.
+                  </p>
+              </div>
+
+              <div class="box">
+                <img class="leftImg2" data-aos="fade-right" src="../Img/lupulo.jpg" alt="" />
+                <p class="rightText2" data-aos="fade-left">
+                  El lúpulo es el responsable de principales características de la cerveza: aroma y amargor. Esto se debe a que durante el hervido del mosto cervecero, previo a la fermentación, esta flor segrega resinas (humulonas) que son alfa ácidos y que al entrar en contacto con la alta temperatura durante el hervor del mosto, se vuelven iso alfa ácidos a través de una reacción llamada isomerización.
+                </p>
+            </div>
+
             </div>
         </main>
 
         
-        <footer id="pie-pagina">
+        <footer id="pie-pagina" data-aos="fade-up">
             <div class="caja-1">
                 <div class="caja">
                     <figure>
@@ -163,6 +181,11 @@
                 <small> &copy; 2022 <b>BeerCrafting</b> - Todos los derechos reservados</small>
             </div>
         </footer>
+
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init();
+        </script>
 
         <script
         src="https://kit.fontawesome.com/b8ab94815a.js"
