@@ -1,16 +1,17 @@
 .bodyFaq{
     text-shadow: 1px 1px 3px black;
     font-family:'Oswald', sans-serif;
-    background-image: url(../Img/img/fondofaq1.jpg);
-    background-attachment: fixed;
+    background-image: url(../Img/fondofaq1.jpg);
     background-size: cover;
+
+    .faqTitle{
+        color: rgb(0, 0, 0);
+        margin-left: 60px;
+        font-size: 3rem;
+    }
 }
 
-.faqTitle{
-    color: rgb(0, 0, 0);
-    margin-left: 60px;
-    font-size: 3rem;
-}
+
 
 .mainFaq{
     color: rgb(0, 0, 0);
@@ -20,11 +21,12 @@
             .listaFaq{
                 list-style-type: disc;
                 margin-left: 30px;
-                font-size: 1rem;
+                font-size: 1.5rem;
             }
         }
         .faqParrafo{
             margin-left: 30px;
+            font-size: 1.6rem;
         }
 
         .form-input, .form-textarea{

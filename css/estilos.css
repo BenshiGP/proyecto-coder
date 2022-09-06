@@ -173,14 +173,12 @@ header {
 .bodyFaq {
   text-shadow: 1px 1px 3px black;
   font-family: 'Oswald', sans-serif;
-  background-image: url(../Img/img/fondofaq1.jpg);
-  background-attachment: fixed;
+  background-image: url(../Img/fondofaq1.jpg);
   background-size: cover; }
-
-.faqTitle {
-  color: black;
-  margin-left: 60px;
-  font-size: 3rem; }
+  .bodyFaq .faqTitle {
+    color: black;
+    margin-left: 60px;
+    font-size: 3rem; }
 
 .mainFaq {
   color: black; }
@@ -189,9 +187,10 @@ header {
     .mainFaq .secFaq .faq .listaFaq {
       list-style-type: disc;
       margin-left: 30px;
-      font-size: 1rem; }
+      font-size: 1.5rem; }
   .mainFaq .secFaq .faqParrafo {
-    margin-left: 30px; }
+    margin-left: 30px;
+    font-size: 1.6rem; }
   .mainFaq .secFaq .form-input, .mainFaq .secFaq .form-textarea {
     background: rgba(0, 0, 0, 0.7);
     border: none;
@@ -263,6 +262,8 @@ main .contenedorNosotros .box {
     font-size: 1.5rem; }
 
 @media screen and (max-width: 768px) {
+  header {
+    padding-bottom: 3.5rem; }
   footer {
     width: 100%;
     background-color: black; }
