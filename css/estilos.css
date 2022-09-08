@@ -221,7 +221,7 @@ header {
       animation-duration: 1s; }
 
 .bodyNosotros {
-  background: url(../../Img/Img/backgroundC.jpg);
+  background: url(../../Img/backgroundC.jpg);
   background-size: cover;
   background-attachment: fixed; }
 
@@ -260,6 +260,24 @@ main .contenedorNosotros .box {
     margin-left: 150px;
     color: whitesmoke;
     font-size: 1.5rem; }
+
+.bodyCatalogo {
+  background: url(../../Img/backgroundC.jpg);
+  background-size: cover;
+  background-attachment: fixed; }
+  .bodyCatalogo .tituloC {
+    display: flex;
+    justify-content: center; }
+    .bodyCatalogo .tituloC .title {
+      color: whitesmoke;
+      font-size: 3rem; }
+  .bodyCatalogo .rellenoC {
+    display: flex;
+    justify-content: center; }
+    .bodyCatalogo .rellenoC .relleno {
+      color: whitesmoke;
+      font-size: 1.5rem;
+      max-width: 35rem; }
 
 @media screen and (max-width: 768px) {
   header {

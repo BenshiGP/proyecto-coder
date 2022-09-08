@@ -1,0 +1,28 @@
+
+.bodyCatalogo{
+    background: url(../../Img/backgroundC.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+
+    .tituloC{
+        display: flex;
+        justify-content: center;
+        .title{
+            color: whitesmoke;
+            font-size: 3rem;
+
+        }
+    }
+
+    .rellenoC{
+        display: flex;
+        justify-content: center;
+        .relleno{
+            color: whitesmoke;
+            font-size: 1.5rem;
+            max-width: 35rem;
+        }
+    }    
+        
+    }
