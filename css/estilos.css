@@ -320,7 +320,7 @@ main .contenedorNosotros .box {
         text-transform: uppercase;
         cursor: pointer; }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 480px) {
   header {
     padding-bottom: 3.5rem; }
   footer {
@@ -342,7 +342,7 @@ main .contenedorNosotros .box {
     display: flex;
     flex-direction: column; }
     .contenedorHome div p {
-      max-width: 20rem;
+      max-width: 30rem;
       display: inline-block;
       font-size: large;
       font-weight: 300;
@@ -356,21 +356,39 @@ main .contenedorNosotros .box {
       width: 300px;
       border-radius: 1.5rem;
       box-shadow: 1px 1px 5px black; }
-  main .titleNosotros {
-    font-size: xx-large; }
-  main .contenedorNosotros .box {
+  .mainNosotros .titleNosotros {
+    font-size: 1.8rem; }
+  .mainNosotros .contenedorNosotros .box {
     display: flex;
     flex-direction: column; }
-    main .contenedorNosotros .box p {
+    .mainNosotros .contenedorNosotros .box .rightText {
       max-width: 30rem;
       display: inline-block;
-      font-size: large;
-      margin-bottom: 70px;
-      text-shadow: 1px 1px 5px black -1px -1px 5px black;
+      font-size: 1.2rem;
+      margin-left: 0;
+      margin-bottom: 50px;
       color: white;
       padding-left: 10px;
       text-shadow: 1px 1px 5px black; }
-    main .contenedorNosotros .box img {
+    .mainNosotros .contenedorNosotros .box .leftText {
+      max-width: 30rem;
+      display: inline-block;
+      font-size: 1.2rem;
+      margin-left: 0;
+      margin-bottom: 50px;
+      color: white;
+      padding-left: 10px;
+      text-shadow: 1px 1px 5px black; }
+    .mainNosotros .contenedorNosotros .box .rightText2 {
+      max-width: 30rem;
+      display: inline-block;
+      font-size: 1.2rem;
+      margin-left: 0;
+      margin-bottom: 50px;
+      color: white;
+      padding-left: 10px;
+      text-shadow: 1px 1px 5px black; }
+    .mainNosotros .contenedorNosotros .box img {
       height: 250px;
       width: 300px;
       border-radius: 1.5rem;
@@ -379,9 +397,13 @@ main .contenedorNosotros .box {
     grid-template-columns: repeat(2, 1fr);
     padding-left: 35px; } }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 480px) {
   .bodyCatalogo .gridCard {
     grid-template-columns: repeat(1, 1fr);
     padding-left: 35px; }
     .bodyCatalogo .gridCard article {
       text-align: center; } }
+
+@media screen and (min-width: 320px) {
+  .mainNosotros .contenedorNosotros .box .rightText {
+    font-size: small; } }

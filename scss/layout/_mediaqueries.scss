@@ -1,6 +1,6 @@
 @import 'utilities/mapas';
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 480px) {
 	header {
 		padding-bottom: 3.5rem;
 	}
@@ -33,7 +33,7 @@
 		flex-direction: column;
 		div {
 			p {
-				max-width: 20rem;
+				max-width: 30rem;
 				display: inline-block;
 				font-size: large;
 				font-weight: 300;
@@ -53,22 +53,46 @@
 		}
 	}
 
-	main {
+	.mainNosotros {
 		.titleNosotros {
-			font-size: xx-large;
+			font-size: 1.8rem;
 		}
 		.contenedorNosotros {
 			.box {
 				display: flex;
 				flex-direction: column;
 
-				p {
+				.rightText {
 					max-width: 30rem;
 					display: inline-block;
-					font-size: large;
+					font-size: 1.2rem;
+					margin-left: 0;
+					margin-bottom: 50px;
+					
+					color: $color-text;
+					padding-left: 10px;
+					text-shadow: 1px 1px 5px black;
+				}
+				
+				.leftText{
+					max-width: 30rem;
+					display: inline-block;
+					font-size: 1.2rem;
+					margin-left: 0;
+					margin-bottom: 50px;
+					
+					color: $color-text;
+					padding-left: 10px;
+					text-shadow: 1px 1px 5px black;
+				}
 
-					margin-bottom: 70px;
-					text-shadow: map-get($map: $standard, $key: border-standard);
+				.rightText2{
+					max-width: 30rem;
+					display: inline-block;
+					font-size: 1.2rem;
+					margin-left: 0;
+					margin-bottom: 50px;
+					
 					color: $color-text;
 					padding-left: 10px;
 					text-shadow: 1px 1px 5px black;
@@ -94,7 +118,7 @@
 	
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 480px){
 	
 	.bodyCatalogo{
 		.gridCard{
@@ -108,4 +132,16 @@
 
 	
 
+}
+
+@media screen and (min-width: 320px){
+	.mainNosotros{	
+		.contenedorNosotros{
+			.box{
+				.rightText{
+					font-size: small;
+				}
+			}
+		}
+	}
 }
