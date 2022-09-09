@@ -1,6 +1,6 @@
 @import 'utilities/mapas';
 
-@media screen and (max-width: 480px) {
+@media only screen and (min-width: 320px) and (max-width: 426px) {
 	header {
 		padding-bottom: 3.5rem;
 	}
@@ -68,79 +68,144 @@
 					font-size: 1.2rem;
 					margin-left: 0;
 					margin-bottom: 50px;
-					
-					color: $color-text;
-					padding-left: 10px;
-					text-shadow: 1px 1px 5px black;
-				}
-				
-				.leftText{
-					max-width: 30rem;
-					display: inline-block;
-					font-size: 1.2rem;
-					margin-left: 0;
-					margin-bottom: 50px;
-					
+
 					color: $color-text;
 					padding-left: 10px;
 					text-shadow: 1px 1px 5px black;
 				}
 
-				.rightText2{
+				.leftText {
 					max-width: 30rem;
 					display: inline-block;
 					font-size: 1.2rem;
 					margin-left: 0;
 					margin-bottom: 50px;
-					
+
 					color: $color-text;
 					padding-left: 10px;
 					text-shadow: 1px 1px 5px black;
 				}
 
-				img {
-					height: 250px;
+				.rightText2 {
+					max-width: 30rem;
+					display: inline-block;
+					font-size: 1.2rem;
+					margin-left: 0;
+					margin-bottom: 50px;
+
+					color: $color-text;
+					padding-left: 10px;
+					text-shadow: 1px 1px 5px black;
+				}
+
+				.leftImg {
+					height: 200px;
 					width: 300px;
-					border-radius: 1.5rem;
-					box-shadow: 1px 1px 5px black;
+
 				}
+				.rightImg{
+					height: 200px;
+					width: 300px;
+				}
+
+				.rightImg2{
+					height: 200px;
+					width: 300px;
+				}
+				.leftImg2 {
+					height: 200px;
+					width: 300px;
+
+				}
+
 			}
 		}
 	}
-	
-	.bodyCatalogo{
-		.gridCard{
-			grid-template-columns: repeat(2, 1fr);
-			padding-left: 35px;
-		}
-	}
-	
-	
-}
 
-@media screen and (max-width: 480px){
-	
-	.bodyCatalogo{
-		.gridCard{
+	.bodyCatalogo {
+		.gridCard {
 			grid-template-columns: repeat(1, 1fr);
-			padding-left: 35px;
-			article{
-				text-align: center;
+			align-items: center;
+		}
+
+		.tituloC {
+			.title {
+				font-size: 1.8rem;
+			}
+		}
+
+		.rellenoC {
+			.relleno {
+				font-size: 1.1rem;
+				padding-left: 10px;
 			}
 		}
 	}
-
-	
-
 }
 
-@media screen and (min-width: 320px){
-	.mainNosotros{	
-		.contenedorNosotros{
-			.box{
-				.rightText{
-					font-size: small;
+@media screen and (max-width: 1024px) {
+	.bodyCatalogo {
+		.gridCard {
+			padding-left: 15px;
+		}
+	}
+
+	.contenedorHome {
+		img {
+			height: 320px;
+			width: 370px;
+		}
+	}
+
+	.bodyNosotros {
+		main {
+			.contenedorNosotros {
+				.box {
+					img {
+						height: 320px;
+						width: 370px;
+					}
+
+					.rightText {
+						font-size: 1.3rem;
+						margin-left: 0;
+					}
+
+					.leftText {
+						font-size: 1.3rem;
+						margin-left: 0;
+					}
+
+					.rightText2 {
+						font-size: 1.3rem;
+						margin-left: 0;
+					}
 				}
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.contenedorHome {
+		div {
+			p {
+				font-size: 1.2rem;
+			}
+		}
+		img {
+			height: 250px;
+			width: 300px;
+		}
+	}
+
+
+	.mainNosotros {
+
+		.contenedorNosotros {
+			.box {
+				display: flex;
+				flex-direction: column;
 			}
 		}
 	}

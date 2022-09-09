@@ -320,7 +320,7 @@ main .contenedorNosotros .box {
         text-transform: uppercase;
         cursor: pointer; }
 
-@media screen and (max-width: 480px) {
+@media only screen and (min-width: 320px) and (max-width: 426px) {
   header {
     padding-bottom: 3.5rem; }
   footer {
@@ -388,22 +388,52 @@ main .contenedorNosotros .box {
       color: white;
       padding-left: 10px;
       text-shadow: 1px 1px 5px black; }
-    .mainNosotros .contenedorNosotros .box img {
-      height: 250px;
-      width: 300px;
-      border-radius: 1.5rem;
-      box-shadow: 1px 1px 5px black; }
-  .bodyCatalogo .gridCard {
-    grid-template-columns: repeat(2, 1fr);
-    padding-left: 35px; } }
-
-@media screen and (max-width: 480px) {
+    .mainNosotros .contenedorNosotros .box .leftImg {
+      height: 200px;
+      width: 300px; }
+    .mainNosotros .contenedorNosotros .box .rightImg {
+      height: 200px;
+      width: 300px; }
+    .mainNosotros .contenedorNosotros .box .rightImg2 {
+      height: 200px;
+      width: 300px; }
+    .mainNosotros .contenedorNosotros .box .leftImg2 {
+      height: 200px;
+      width: 300px; }
   .bodyCatalogo .gridCard {
     grid-template-columns: repeat(1, 1fr);
-    padding-left: 35px; }
-    .bodyCatalogo .gridCard article {
-      text-align: center; } }
+    align-items: center; }
+  .bodyCatalogo .tituloC .title {
+    font-size: 1.8rem; }
+  .bodyCatalogo .rellenoC .relleno {
+    font-size: 1.1rem;
+    padding-left: 10px; } }
 
-@media screen and (min-width: 320px) {
-  .mainNosotros .contenedorNosotros .box .rightText {
-    font-size: small; } }
+@media screen and (max-width: 1024px) {
+  .bodyCatalogo .gridCard {
+    padding-left: 15px; }
+  .contenedorHome img {
+    height: 320px;
+    width: 370px; }
+  .bodyNosotros main .contenedorNosotros .box img {
+    height: 320px;
+    width: 370px; }
+  .bodyNosotros main .contenedorNosotros .box .rightText {
+    font-size: 1.3rem;
+    margin-left: 0; }
+  .bodyNosotros main .contenedorNosotros .box .leftText {
+    font-size: 1.3rem;
+    margin-left: 0; }
+  .bodyNosotros main .contenedorNosotros .box .rightText2 {
+    font-size: 1.3rem;
+    margin-left: 0; } }
+
+@media only screen and (max-width: 768px) {
+  .contenedorHome div p {
+    font-size: 1.2rem; }
+  .contenedorHome img {
+    height: 250px;
+    width: 300px; }
+  .mainNosotros .contenedorNosotros .box {
+    display: flex;
+    flex-direction: column; } }
