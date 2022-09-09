@@ -1,219 +1,249 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="css/estilos.css" />
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="css/estilos.css" />
 
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Roboto:wght@100;900&display=swap"
-            rel="stylesheet"
-        />
-        <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-        />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Roboto:wght@100;900&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+		/>
 
-        <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
-            rel="stylesheet"
-            integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
-            crossorigin="anonymous"
-        />
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+			crossorigin="anonymous"
+		/>
 
-        <title>Beer Crafting</title>
-    </head>
-    <body class="body-i">
-        <header class="menuSticky">
-            <nav>
-                <div>
-                    <a class="text-decoration-none" href="index.html"
-                        ><h1 class="colorhh animate__animated animate__slideInLeft">
-                            Beer Crafting®
-                        </h1></a
-                    >
-                </div>
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+		/>
 
-                <input type="checkbox" id="check" />
-                <label for="check" class="bar-btn"></label>
-                <i class="fas fa-bars"></i>
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
-                <ul class="nav-menu animate__animated animate__slideInRight">
-                    <a href="secciones/catalogo.html" class="menu">Catalogo</a>
+		<title>Beer Crafting</title>
+	</head>
+	<body class="body-i">
+		<header>
+      <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
 
-                    <a href="Secciones/nosotros.html" class="menu">Nosotros</a>
+        <a class="navbar-brand" href="index.html">
+          
+          <span class="text-warning">Beer Crafting</span>
+        </a>
 
-                    <a href="Secciones/faq.html" class="menu">FAQ</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-                    <a href="Secciones/contactanos.html" class="menu">Contactanos</a>
-                </ul>
-            </nav>
-        </header>
+        <div class="collapse navbar-collapse" id="menu">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Secciones/catalogo.html">Catalogo</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Secciones/nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Secciones/faq.html">FAQ</a>
+              </li>
 
-        <div class="imgFondo">
-            <img src="img/imgfondo.jpg" alt="fondomain" />
-        </div>
+              <li class="nav-item">
+                <a class="nav-link" href="Secciones/contactanos.html">Contactanos</a>
+              </li>
+          </ul>
 
-        <div class="encabezado">
-            <h2>Amor cervecero, Amor verdadero.</h2>
-        </div>
+          <hr class="d-md-none text-white-50">
 
-        <main class="contenedorHome">
-            <div class="img1">
-                <img src="Img/birra1.jpg" alt="ilustracion-de-local" />
+          <ul class="navbar-nav  flex-row flex-wrap text-light">
+        
+           <a href="https://twitter.com/">
+            <li class="nav-item col-6 col-md-auto p-3">
+                 <i class="bi bi-twitter"></i>
+                 <small class="d-md-none ms-2"></small>  
+             </li>
+           </a>
 
-                <p>
-                    Podras encontrar una gran y diversa variedad de cervezas en nuestros
-                    locales.
-                </p>
-            </div>
+           <a href="https://www.youtube.com/">
+             <li class="nav-item col-6 col-md-auto p-3">
+               <i class="bi bi-youtube"></i>
+               <small class="d-md-none ms-2"></small> 
+             </li>
+           </a>
 
-            <div class="img2">
-                <img src="Img/birra2.jpg" alt="ilustracion-de-local" />
-                <div class="text-2">
-                    <p>
-                        Siempre es mejor refrescar el paladar acompañado de los que mas
-                        quieres.
-                    </p>
-                </div>
+           <a href="https://www.instagram.com/">
+             <li class="nav-item col-6 col-md-auto p-3">
+               <i class="bi bi-instagram"></i>
+               <small class="d-md-none ms-2"></small>
+             </li>
+           </a>
 
-                <div class="img3">
-                    <img src="Img/birra4.jpg" alt="ilustracion-fabrica" />
+            <a href="https://facebook.com">
+              <li class="nav-item col-6 col-md-auto p-3">
+                <i class="bi bi-facebook"></i>
+                <small class="d-md-none ms-2"></small>
+              </li>
+            </a>
+          </ul>    
+                 
+      </nav>
+    </header>
 
-                    <p>
-                        No te pierdas ningun momento especial porque tenes que ir a comprar la
-                        birra, nosotros te la llevamos.
-                    </p>
-                </div>
-            </div>
-        </main>
+		<div class="banner">
+			<div
+				id="carouselExampleControls"
+				class="carousel slide"
+				data-bs-ride="carousel"
+			>
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img
+							src="Img/imgfondo.svg"
+							class="d-block w-100"
+							alt="ilustracion cervezas artesanales"
+						/>
+					</div>
+					<div class="carousel-item">
+						<img
+							src="Img/bar1.svg"
+							class="d-block w-100"
+							alt="ilustracion de local"
+						/>
+					</div>
+				</div>
+				<button
+					class="carousel-control-prev"
+					type="button"
+					data-bs-target="#carouselExampleControls"
+					data-bs-slide="prev"
+				>
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Previous</span>
+				</button>
+				<button
+					class="carousel-control-next"
+					type="button"
+					data-bs-target="#carouselExampleControls"
+					data-bs-slide="next"
+				>
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Next</span>
+				</button>
+			</div>
+		</div>
 
-        <section class="container mb-5">
-            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
-                <div class="carousel-indicators">
-                    <button
-                        type="button"
-                        data-bs-target="#carouselExampleCaptions"
-                        data-bs-slide-to="0"
-                        class="active"
-                        aria-current="true"
-                        aria-label="Slide 1"
-                    ></button>
-                    <button
-                        type="button"
-                        data-bs-target="#carouselExampleCaptions"
-                        data-bs-slide-to="1"
-                        aria-label="Slide 2"
-                    ></button>
-                    <button
-                        type="button"
-                        data-bs-target="#carouselExampleCaptions"
-                        data-bs-slide-to="2"
-                        aria-label="Slide 3"
-                    ></button>
-                </div>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img
-                            src="Img/bar1.jpg"
-                            class="d-block w-50 container-fluid rounded-circle"
-                            alt="..."
-                        />
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5 class="text-light rounded">
-                                Puedo encontrar nuestos Bares en distintos puntos de la ciudad.
-                            </h5>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img
-                            src="Img/bar2.jpg"
-                            class="d-block w-50 container-fluid rounded-circle"
-                            alt="..."
-                        />
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5></h5>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img
-                            src="Img/bar3.jpg"
-                            class="d-block w-50 container-fluid rounded-circle"
-                            alt="..."
-                        />
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5></h5>
-                            <p></p>
-                        </div>
-                    </div>
-                </div>
-                <button
-                    class="carousel-control-prev"
-                    type="button"
-                    data-bs-target="#carouselExampleCaptions"
-                    data-bs-slide="prev"
-                >
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button
-                    class="carousel-control-next"
-                    type="button"
-                    data-bs-target="#carouselExampleCaptions"
-                    data-bs-slide="next"
-                >
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-            </div>
-        </section>
+		<div class="encabezado">
+			<h1 data-aos="fade-up">Amor cervecero, Amor verdadero.</h1>
+		</div>
 
-        <footer id="pie-pagina">
-            <div class="caja-1">
-                <div class="caja">
-                    <figure>
-                        <a href="Secciones/nosotros.html">
-                            <img src="Img/logo.png" alt="" />
-                        </a>
-                    </figure>
-                </div>
-                <div class="caja">
-                    <h2>Sobre nosotros</h2>
-                    <p>Aqui podras encontrar nuestras redes sociales.</p>
-                    <p>Siguenos para no perderte ninguna novedad.</p>
-                </div>
-                <div class="caja">
-                    <h2>Redes Sociales.</h2>
-                    <div class="red-social">
-                        <a href="#" class="fa fa-facebook"></a>
-                        <a href="#" class="fa fa-instagram"></a>
-                        <a href="#" class="fa fa-twitter"></a>
-                        <a href="#" class="fa fa-youtube"></a>
-                    </div>
-                </div>
-            </div>
-            <div class="caja-2">
-                <small> &copy; 2022 <b>BeerCrafting</b> - Todos los derechos reservados</small>
-            </div>
-        </footer>
+		<main class="contenedorHome">
+			<img
+				class="leftImg"
+				data-aos="fade-right"
+				src="img/birra1.jpg"
+				alt="ilustracion de cerveza en bar "
+			/>
+			<div class="rightText">
+				<p data-aos="fade-left">
+					Podras encontrar una gran y diversa variedad de cervezas en nuestros
+					locales, aparte saldrás fascinado con la gran y diversa variedad de
+					sabores y texturas que tienen nuestras birras .
+				</p>
+			</div>
 
-        <script
-            src="https://kit.fontawesome.com/b8ab94815a.js"
-            crossorigin="anonymous"
-        ></script>
+			<img
+				class="rightImg"
+				data-aos="fade-left"
+				src="img/picada.jpg"
+				alt="ilustracion de picada con una cerveza"
+			/>
+			<div class="leftText">
+				<p data-aos="fade-right">
+					Siempre es mejor refrescar el paladar acompañado de los que mas
+					quieres y obviamente acompañado de una buena picada para acompañar esa
+					refrescante birra.
+				</p>
+			</div>
 
-        <script
-            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
-            integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
-            crossorigin="anonymous"
-        ></script>
-        <script
-            src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
-            integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
-            crossorigin="anonymous"
-        ></script>
-    </body>
+			<img
+				class="leftImg2"
+				data-aos="fade-right"
+				src="img/birra4.jpg"
+				alt="ilustracion amigas tomando cerveza"
+			/>
+			<div class="rightText2">
+				<p data-aos="fade-left">
+					No te pierdas ningun momento especial porque tenes que ir a comprar la
+					birra, BeerCrafting posee con un gran servicio de delivery a domicilio
+					a un precio muy barato.
+				</p>
+			</div>
+		</main>
+
+		<footer id="pie-pagina" data-aos="fade-up">
+			<div class="caja-1">
+				<div class="caja">
+					<figure>
+						<a href="Secciones/nosotros.html">
+							<img src="Img/logo.png" alt="logo pagina footer" />
+						</a>
+					</figure>
+				</div>
+				<div class="caja">
+					<h2>Sobre nosotros</h2>
+					<p>Aqui podras encontrar nuestras redes sociales.</p>
+					<p>Siguenos para no perderte ninguna novedad.</p>
+				</div>
+				<div class="caja">
+					<h2>Redes Sociales.</h2>
+					<div class="red-social">
+						<a href="https://facebook.com" class="fa fa-facebook"></a>
+						<a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+						<a href="https://twitter.com/" class="fa fa-twitter"></a>
+						<a href="https://www.youtube.com/" class="fa fa-youtube"></a>
+					</div>
+				</div>
+			</div>
+			<div class="caja-2">
+				<small>
+					&copy; 2022 <b>BeerCrafting</b> - Todos los derechos reservados</small
+				>
+			</div>
+		</footer>
+
+		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+		<script>
+			AOS.init();
+		</script>
+
+		<script
+			src="https://kit.fontawesome.com/b8ab94815a.js"
+			crossorigin="anonymous"
+		></script>
+
+		<script
+			src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+			integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+			integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
+			crossorigin="anonymous"
+		></script>
+	</body>
 </html>

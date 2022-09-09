@@ -1,0 +1,22 @@
+@import 'utilities/mixin';
+@import 'utilities/mapas';
+.contenedorHome {
+	@include grid;
+
+	div {
+		p {
+			max-width: 30rem;
+			display: inline-block;
+			font-size: x-large;
+			font-weight: 300;
+			margin-bottom: 70px;
+			text-shadow: map-get($map: $standard, $key: border-standard);
+			color: $color-text;
+			padding-left: 10px;
+			text-shadow: 1px 1px 5px black;
+		}
+	}
+	img {
+		@include img;
+	}
+}

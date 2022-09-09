@@ -1,0 +1,29 @@
+@mixin img {
+	height: 400px;
+	width: 550px;
+	border-radius: 1.5rem;
+	box-shadow: 1px 1px 5px black;
+}
+
+@mixin grid {
+	padding: 50px 80px;
+	line-height: 1.5rem;
+	display: grid;
+	grid-template-areas:
+		'leftImg rightText'
+		'leftText rightImg'
+		'leftImg2 rightText2';
+	gap: 2rem;
+	align-items: center;
+	overflow: hidden;
+	.leftImg {
+		grid-area: leftImg;
+	}
+	.rightImg {
+		grid-area: rightImg;
+	}
+
+	.leftText {
+		grid-area: leftText;
+	}
+}

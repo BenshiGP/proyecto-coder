@@ -1,28 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="../css/estilos.css" />
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="../css/estilos.css" />
 
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Roboto:wght@100;900&display=swap"
-            rel="stylesheet"
-        />
-        <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-        />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Roboto:wght@100;900&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+		/>
 
-        <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
-            rel="stylesheet"
-            integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
-            crossorigin="anonymous"
-        />
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+			crossorigin="anonymous"
+		/>
+
 
         <title>Beer Crafting</title>
     </head>
@@ -37,132 +38,232 @@
                     >
                 </div>
 
-                <input type="checkbox" id="check" />
-                <label for="check" class="bar-btn"></label>
-                <i class="fas fa-bars"></i>
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+		/>
 
-                <ul class="nav-menu animate__animated animate__slideInRight">
-                    <a href="../index.html" class="menu">Home</a>
 
-                    <a href="../Secciones/nosotros.html" class="menu">Nosotros</a>
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
-                    <a href="../Secciones/faq.html" class="menu">FAQ</a>
+		<title>Beer Crafting</title>
+	</head>
+	<body class="bodyCatalogo">
+		<header>
+      <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+                     
+        <a class="navbar-brand" href="../index.html">
 
-                    <a href="../Secciones/contactanos.html" class="menu">Contactanos</a>
-                </ul>
-            </nav>
-        </header>        <main>
-            <div class="imgFondo">
-                <img src="../Img/imgfondo.jpg" alt="fondomain" />
+          <span class="text-warning">Beer Crafting</span>
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="menu">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../Secciones/nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../Secciones/faq.html">FAQ</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../Secciones/contactanos.html">Contactanos</a>
+            </li>
+          </ul>
+
+          <hr class="d-md-none text-white-50">
+
+          <ul class="navbar-nav  flex-row flex-wrap text-light">
+            <a href="https://twitter.com/">
+              <li class="nav-item col-6 col-md-auto p-3">
+                   <i class="bi bi-twitter"></i>
+                   <small class="d-md-none ms-2"></small>  
+               </li>
+             </a>
+  
+             <a href="https://www.youtube.com/">
+               <li class="nav-item col-6 col-md-auto p-3">
+                 <i class="bi bi-youtube"></i>
+                 <small class="d-md-none ms-2"></small> 
+               </li>
+             </a>
+  
+             <a href="https://www.instagram.com/">
+               <li class="nav-item col-6 col-md-auto p-3">
+                 <i class="bi bi-instagram"></i>
+                 <small class="d-md-none ms-2"></small>
+               </li>
+             </a>
+  
+              <a href="https://facebook.com">
+                <li class="nav-item col-6 col-md-auto p-3">
+                  <i class="bi bi-facebook"></i>
+                  <small class="d-md-none ms-2"></small>
+                </li>
+              </a>
+
+          </ul>           
+      </nav>
+    </header>
+
+		<main class="body-i">
+			<div class="banner">
+				<div
+					id="carouselExampleControls"
+					class="carousel slide"
+					data-bs-ride="carousel"
+				>
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img src="../Img/imgfondo.svg" class="d-block w-100" alt="..." />
+						</div>
+						<div class="carousel-item">
+							<img src="../Img/bar1.svg" class="d-block w-100" alt="..." />
+						</div>
+					</div>
+					<button
+						class="carousel-control-prev"
+						type="button"
+						data-bs-target="#carouselExampleControls"
+						data-bs-slide="prev"
+					>
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Previous</span>
+					</button>
+					<button
+						class="carousel-control-next"
+						type="button"
+						data-bs-target="#carouselExampleControls"
+						data-bs-slide="next"
+					>
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Next</span>
+					</button>
+				</div>
+			</div>
+		</main>
+
+
+		<div class="tituloC">
+			<h1 class="title">Nuestas Cervezas</h1>
+		</div>
+		<div class="rellenoC">
+			<p class="relleno">
+				En nuestro Catalogo encontraras una gran variedad de productos de la
+				mejor calidad a un exelente precio, los cuales podras disfrutar cuando
+				quieras en la situacion que mas te convenga.
+			</p>
+		</div>
+
+		<div>
+			<section class="gridCard">
+          <article>
+              <img src="../productos/p9.jpg" alt="">
+              <div class="textCard">
+                  <h3> cerveza 1</h3>
+                  <p> precio </p>
+                  <button>comprar</button>
+              </div>
+          </article>
+
+          <article>
+            <img src="../productos/p9.jpg" alt="">
+            <div class="textCard">
+                <h3> cerveza 1</h3>
+                <p> precio </p>
+                <button>comprar</button>
             </div>
-        </main>
-        <!-- aca iria un poco de informacion de la pagina y luego varias imagenes de los productos principales que cerian cerveza, destilados, vinos, etc-->
+        </article>
 
-        <h1 class="title container-fluid">Nuestas Cervezas</h1>
-        <p class="relleno container-fluid">
-            En nuestro Catalogo encontraras una gran variedad de productos de la mejor calidad
-            a un exelente precio, los cuales podras disfrutar cuando quieras en la situacion
-            que mas convenga.
-        </p>
+        <article>
+          <img src="../productos/p9.jpg" alt="">
+          <div class="textCard">
+              <h3> cerveza 1</h3>
+              <p> precio </p>
+              <button>comprar</button>
+          </div>
+      </article>
 
-        <section>
-            <div class="card container-fluid mb-5 bg-dark" style="width: 18rem">
-                <img src="../Productos/p10.jpg" class="card-img-top" alt="..." />
-                <div class="card-body">
-                    <h5 class="card-title text-light">Cerveza Artesanal.</h5>
-                    <p class="card-text text-light">Precio $$$</p>
-                    <a href="#" class="btn btn-primary">Comprar</a>
-                </div>
-            </div>
+      <article>
+        <img src="../productos/p9.jpg" alt="">
+        <div class="textCard">
+            <h3> cerveza 1</h3>
+            <p> precio </p>
+            <button>comprar</button>
+        </div>
+    </article>
 
-            <div class="card container-fluid mb-5 bg-dark" style="width: 18rem">
-                <img src="../Productos/p5.jpg" class="card-img-top" alt="..." />
-                <div class="card-body">
-                    <h5 class="card-title text-light">Cerveza Artesanal.</h5>
-                    <p class="card-text text-light">Precio $$$</p>
-                    <a href="#" class="btn btn-primary">Comprar</a>
-                </div>
-            </div>
+    <article>
+      <img src="../productos/p9.jpg" alt="">
+      <div class="textCard">
+          <h3> cerveza 1</h3>
+          <p> precio </p>
+          <button>comprar</button>
+      </div>
+  </article>
 
-            <div class="card container-fluid mb-5 bg-dark" style="width: 18rem">
-                <img src="../Productos/p8.jpg" class="card-img-top" alt="..." />
-                <div class="card-body">
-                    <h5 class="card-title text-light">Cerveza Artesanal.</h5>
-                    <p class="card-text text-light">Precio $$$</p>
-                    <a href="#" class="btn btn-primary">Comprar</a>
-                </div>
-            </div>
+  <article>
+    <img src="../productos/p9.jpg" alt="">
+    <div class="textCard">
+        <h3> cerveza 1</h3>
+        <p> precio </p>
+        <button>comprar</button>
+    </div>
+</article>
+      </section>
+		</div>
 
-            <div class="card container-fluid mb-5 bg-dark" style="width: 18rem">
-                <img src="../Productos/p3.jpg" class="card-img-top" alt="..." />
-                <div class="card-body">
-                    <h5 class="card-title text-light">Cerveza Artesanal.</h5>
-                    <p class="card-text text-light">Precio $$$</p>
-                    <a href="#" class="btn btn-primary">Comprar</a>
-                </div>
-            </div>
+		<footer id="pie-pagina">
+			<div class="caja-1">
+				<div class="caja">
+					<figure>
+						<a href="#">
+							<img src="../Img/logo.png" alt="imagen logo footer" />
+						</a>
+					</figure>
+				</div>
+				<div class="caja">
+					<h2>Sobre nosotros.</h2>
+					<p>Aqui podras encontrar nuestras redes sociales.</p>
+					<p>Siguenos para no perderte ninguna novedad.</p>
+				</div>
+				<div class="caja">
+					<h2>Redes Sociales.</h2>
+					<div class="red-social">
+						<a href="https://facebook.com" class="fa fa-facebook"></a>
+						<a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+						<a href="https://twitter.com/" class="fa fa-twitter"></a>
+						<a href="https://www.youtube.com/" class="fa fa-youtube"></a>
+					</div>
+				</div>
+			</div>
+			<div class="caja-2">
+				<small>
+					&copy; 2022 <b>BeerCrafting</b> - Todos los derechos reservados</small
+				>
+			</div>
+		</footer>
 
-            <div class="card container-fluid mb-5 bg-dark" style="width: 18rem">
-                <img src="../Productos/p4.jpg" class="card-img-top" alt="..." />
-                <div class="card-body">
-                    <h5 class="card-title text-light">Cerveza Artesanal.</h5>
-                    <p class="card-text text-light">Precio $$$</p>
-                    <a href="#" class="btn btn-primary">Comprar</a>
-                </div>
-            </div>
+		<script
+			src="https://kit.fontawesome.com/b8ab94815a.js"
+			crossorigin="anonymous"
+		></script>
 
-            <div class="card container-fluid mb-5 bg-dark" style="width: 18rem">
-                <img src="../Productos/p7.jpg" class="card-img-top" alt="..." />
-                <div class="card-body">
-                    <h5 class="card-title text-light">Cerveza Artesanal.</h5>
-                    <p class="card-text text-light">Precio $$$</p>
-                    <a href="#" class="btn btn-primary">Comprar</a>
-                </div>
-            </div>
-
-            <div class="card container-fluid mb-5 bg-dark" style="width: 18rem">
-                <img src="../Productos/p9.jpg" class="card-img-top" alt="..." />
-                <div class="card-body">
-                    <h5 class="card-title text-light">Cerveza Artesanal.</h5>
-                    <p class="card-text text-light">Precio $$$</p>
-                    <a href="#" class="btn btn-primary">Comprar</a>
-                </div>
-            </div>
-
-        </section>
-
-        <footer id="pie-pagina">
-            <div class="caja-1">
-                <div class="caja">
-                    <figure>
-                        <a href="#">
-                            <img src="../Img/logo.png" alt="" />
-                        </a>
-                    </figure>
-                </div>
-                <div class="caja">
-                    <h2>Sobre nosotros.</h2>
-                    <p>Aqui podras encontrar nuestras redes sociales.</p>
-                    <p>Siguenos para no perderte ninguna novedad.</p>
-                </div>
-                <div class="caja">
-                    <h2>Redes Sociales.</h2>
-                    <div class="red-social">
-                        <a href="#" class="fa fa-facebook"></a>
-                        <a href="#" class="fa fa-instagram"></a>
-                        <a href="#" class="fa fa-twitter"></a>
-                        <a href="#" class="fa fa-youtube"></a>
-                    </div>
-                </div>
-            </div>
-            <div class="caja-2">
-                <small> &copy; 2022 <b>BeerCrafting</b> - Todos los derechos reservados</small>
-            </div>
-        </footer>
-
-        <script
-            src="https://kit.fontawesome.com/b8ab94815a.js"
-            crossorigin="anonymous"
-        ></script>
-    </body>
+		<script
+			src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+			integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+			integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
+			crossorigin="anonymous"
+		></script>
+	</body>
 </html>
