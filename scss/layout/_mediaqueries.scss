@@ -2,7 +2,7 @@
 
 @media only screen and (min-width: 320px) and (max-width: 426px) {
 	header {
-		padding-bottom: 3.5rem;
+		margin-bottom: 2rem;
 	}
 
 	footer {
@@ -24,6 +24,20 @@
 					width: 10rem;
 					height: 15rem;
 				}
+
+				h2 {
+					font-size: 20px;
+				}
+
+				p {
+					font-size: 18px;
+				}
+			}
+		}
+
+		.caja-2 {
+			small {
+				font-size: 18px;
 			}
 		}
 	}
@@ -31,25 +45,48 @@
 	.contenedorHome {
 		display: flex;
 		flex-direction: column;
-		div {
+		.rightText {
 			p {
-				max-width: 30rem;
+				max-width: 10rem;
 				display: inline-block;
-				font-size: large;
-				font-weight: 300;
+				font-size: 15px;
 				margin-bottom: 70px;
-				text-shadow: map-get($map: $standard, $key: border-standard);
-				color: $color-text;
 				padding-left: 10px;
-				text-shadow: 1px 1px 5px black;
 			}
 		}
 
-		img {
-			height: 250px;
-			width: 300px;
-			border-radius: 1.5rem;
-			box-shadow: 1px 1px 5px black;
+		.leftText {
+			p {
+				max-width: 10rem;
+				display: inline-block;
+				font-size: 15px;
+				margin-bottom: 70px;
+				padding-left: 10px;
+			}
+		}
+
+		.rightText2 {
+			p {
+				max-width: 10rem;
+				display: inline-block;
+				font-size: 15px;
+				margin-bottom: 70px;
+				padding-left: 10px;
+			}
+		}
+
+		.leftImg {
+			height: 180px;
+			width: 230px;
+		}
+
+		.rightImg {
+			height: 180px;
+			width: 230px;
+		}
+		.leftImg2 {
+			height: 180px;
+			width: 230px;
 		}
 	}
 
@@ -65,67 +102,56 @@
 				.rightText {
 					max-width: 30rem;
 					display: inline-block;
-					font-size: 1.2rem;
+					font-size: 18px;
 					margin-left: 0;
-					margin-bottom: 50px;
-
-					color: $color-text;
-					padding-left: 10px;
-					text-shadow: 1px 1px 5px black;
+					margin-bottom: 30px;
 				}
 
 				.leftText {
 					max-width: 30rem;
 					display: inline-block;
-					font-size: 1.2rem;
+					font-size: 18px;
 					margin-left: 0;
-					margin-bottom: 50px;
-
-					color: $color-text;
-					padding-left: 10px;
-					text-shadow: 1px 1px 5px black;
+					margin-bottom: 30px;
 				}
 
 				.rightText2 {
 					max-width: 30rem;
 					display: inline-block;
-					font-size: 1.2rem;
+					font-size: 18px;
 					margin-left: 0;
-					margin-bottom: 50px;
-
-					color: $color-text;
-					padding-left: 10px;
-					text-shadow: 1px 1px 5px black;
+					margin-bottom: 30px;
 				}
 
 				.leftImg {
-					height: 200px;
-					width: 300px;
-
+					height: 180px;
+					width: 230px;
 				}
-				.rightImg{
-					height: 200px;
-					width: 300px;
+				.rightImg {
+					height: 180px;
+					width: 230px;
 				}
 
-				.rightImg2{
-					height: 200px;
-					width: 300px;
+				.rightImg2 {
+					height: 180px;
+					width: 230px;
 				}
 				.leftImg2 {
-					height: 200px;
-					width: 300px;
-
+					height: 180px;
+					width: 230px;
 				}
-
 			}
 		}
 	}
 
 	.bodyCatalogo {
 		.gridCard {
-			grid-template-columns: repeat(1, 1fr);
-			align-items: center;
+			display: flex;
+			flex-direction: column;
+
+			article {
+				width: 100%;
+			}
 		}
 
 		.tituloC {
@@ -147,6 +173,7 @@
 	.bodyCatalogo {
 		.gridCard {
 			padding-left: 15px;
+			grid-template-columns: repeat(3, 3fr);
 		}
 	}
 
@@ -167,17 +194,17 @@
 					}
 
 					.rightText {
-						font-size: 1.3rem;
+						
 						margin-left: 0;
 					}
 
 					.leftText {
-						font-size: 1.3rem;
+						
 						margin-left: 0;
 					}
 
 					.rightText2 {
-						font-size: 1.3rem;
+						
 						margin-left: 0;
 					}
 				}
@@ -186,7 +213,7 @@
 	}
 }
 
-@media only screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
 	.contenedorHome {
 		div {
 			p {
@@ -199,14 +226,19 @@
 		}
 	}
 
-
 	.mainNosotros {
-
 		.contenedorNosotros {
 			.box {
 				display: flex;
 				flex-direction: column;
 			}
+		}
+	}
+
+	.bodyCatalogo {
+		.gridCard {
+			grid-template-columns: repeat(2, 2fr);
+			align-items: center;
 		}
 	}
 }

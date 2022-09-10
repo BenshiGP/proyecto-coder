@@ -34,13 +34,16 @@ footer {
 			h2 {
 				color: $color-text;
 				margin-bottom: 25px;
-				font-size: 20px;
+				font-size: 25px;
 				text-align: center;
+				text-shadow: black 0.1em 0.1em 0.2em
 			}
 			p {
 				color: $color-p;
 				margin-bottom: 10px;
 				text-align: center;
+				text-shadow: 1px 1px 5px black;
+				font-size: 20px;
 			}
 		}
 		.caja {
@@ -77,6 +80,7 @@ footer {
 		box-sizing: border-box;
 		small {
 			font-size: 20px;
+			text-shadow: black 0.1em 0.1em 0.2em
 		}
 	}
 }
