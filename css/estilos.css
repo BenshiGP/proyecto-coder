@@ -421,6 +421,8 @@ main .contenedorNosotros .box {
     .mainNosotros .contenedorNosotros .box .leftImg2 {
       height: 180px;
       width: 230px; }
+  .bodyCatalogo header {
+    margin: 4px; }
   .bodyCatalogo .gridCard {
     display: flex;
     flex-direction: column; }

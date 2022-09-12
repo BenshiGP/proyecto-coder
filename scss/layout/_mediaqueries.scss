@@ -145,6 +145,9 @@
 	}
 
 	.bodyCatalogo {
+		header{
+			margin: 4px;
+		}
 		.gridCard {
 			display: flex;
 			flex-direction: column;
