@@ -169,6 +169,34 @@
 	}
 }
 
+.bodyFaq{
+	.faqTitle{
+		h1{
+			font-size: 2rem;
+		}
+	}
+}
+.mainFaq{
+	.secFaq{
+		.listaFaq{
+			font-size: 1.2rem;
+		}
+		.faqParrafo{
+			font-size: 1.2rem;
+		}
+		.faq{
+			font-size: 1.5rem;
+		}
+	}
+	.map{
+			iframe{
+				width: 300px;
+				height: 250px;
+				margin-bottom: 20px;
+			}
+	}
+}
+
 @media screen and (max-width: 1024px) {
 	.bodyCatalogo {
 		.gridCard {
@@ -212,6 +240,7 @@
 		}
 	}
 }
+
 
 @media screen and (max-width: 768px) {
 	.contenedorHome {

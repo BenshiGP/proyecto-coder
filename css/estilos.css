@@ -30,7 +30,7 @@ footer {
         footer .caja-1 .caja figure img:hover {
           animation: flip;
           animation-duration: 1s; }
-    footer .caja-1 .caja h2 {
+    footer .caja-1 .caja h3 {
       color: white;
       margin-bottom: 25px;
       font-size: 25px;
@@ -197,7 +197,7 @@ header {
     margin-bottom: 60px;
     display: flex;
     justify-content: center; }
-    .bodyFaq .faqTitle h2 {
+    .bodyFaq .faqTitle h1 {
       font-size: 3rem; }
 
 .mainFaq {
@@ -217,7 +217,7 @@ header {
       flex-direction: column;
       align-items: center; }
       .mainFaq .secFaq .map .faqmap {
-        margin-bottom: 40px; }
+        margin-bottom: 60px; }
       .mainFaq .secFaq .map .ubicacion {
         border-radius: 30px; }
 
@@ -431,6 +431,23 @@ main .contenedorNosotros .box {
   .bodyCatalogo .rellenoC .relleno {
     font-size: 1.1rem;
     padding-left: 10px; } }
+
+.bodyFaq .faqTitle h1 {
+  font-size: 2rem; }
+
+.mainFaq .secFaq .listaFaq {
+  font-size: 1.2rem; }
+
+.mainFaq .secFaq .faqParrafo {
+  font-size: 1.2rem; }
+
+.mainFaq .secFaq .faq {
+  font-size: 1.5rem; }
+
+.mainFaq .map iframe {
+  width: 300px;
+  height: 250px;
+  margin-bottom: 20px; }
 
 @media screen and (max-width: 1024px) {
   .bodyCatalogo .gridCard {
