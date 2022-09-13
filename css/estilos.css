@@ -6,6 +6,30 @@
   font-family: 'Oswald', sans-serif;
   text-shadow: black 0.1em 0.1em 0.2em; }
 
+.body-i .banner img, .bodyCatalogo .body-i .banner img {
+  background-size: cover;
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  margin-bottom: 50px; }
+
+.body-i .carousel-item, .bodyCatalogo .body-i .carousel-item {
+  background-size: cover;
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  margin-bottom: 10px; }
+
+.contenedorHome div p, main .contenedorNosotros .box p {
+  max-width: 30rem;
+  display: inline-block;
+  font-size: x-large;
+  font-weight: 300;
+  margin-bottom: 70px;
+  color: white;
+  padding-left: 10px;
+  text-shadow: black 0.1em 0.1em 0.2em; }
+
 footer {
   width: 100%;
   background-color: black; }
@@ -40,7 +64,7 @@ footer {
       color: #7d7a7a;
       margin-bottom: 10px;
       text-align: center;
-      text-shadow: 1px 1px 5px black;
+      text-shadow: black 0.1em 0.1em 0.2em;
       font-size: 20px; }
     footer .caja-1 .caja .red-social {
       display: flex;
@@ -77,22 +101,34 @@ header {
     color: white;
     font-size: 21px; }
 
+.body-i .banner img, .bodyCatalogo .body-i .banner img {
+  background-size: cover;
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  margin-bottom: 50px; }
+
+.body-i .carousel-item, .bodyCatalogo .body-i .carousel-item {
+  background-size: cover;
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  margin-bottom: 10px; }
+
+.contenedorHome div p, main .contenedorNosotros .box p {
+  max-width: 30rem;
+  display: inline-block;
+  font-size: x-large;
+  font-weight: 300;
+  margin-bottom: 70px;
+  color: white;
+  padding-left: 10px;
+  text-shadow: black 0.1em 0.1em 0.2em; }
+
 .body-i {
   background: url(../../Img/fondocatalogo.jpg);
   background-size: cover;
   background-attachment: fixed; }
-  .body-i .carousel-item {
-    background-size: cover;
-    box-sizing: border-box;
-    height: 100%;
-    width: 100%;
-    margin-bottom: 10px; }
-  .body-i .banner img {
-    background-size: cover;
-    box-sizing: border-box;
-    height: 100%;
-    width: 100%;
-    margin-bottom: 50px; }
   .body-i .encabezado {
     display: flex;
     justify-content: center;
@@ -101,6 +137,30 @@ header {
     font-size: xx-large;
     color: white;
     text-shadow: black 0.1em 0.1em 0.2em; }
+
+.body-i .banner img, .bodyCatalogo .body-i .banner img {
+  background-size: cover;
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  margin-bottom: 50px; }
+
+.body-i .carousel-item, .bodyCatalogo .body-i .carousel-item {
+  background-size: cover;
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  margin-bottom: 10px; }
+
+.contenedorHome div p, main .contenedorNosotros .box p {
+  max-width: 30rem;
+  display: inline-block;
+  font-size: x-large;
+  font-weight: 300;
+  margin-bottom: 70px;
+  color: white;
+  padding-left: 10px;
+  text-shadow: black 0.1em 0.1em 0.2em; }
 
 .contenedorHome {
   padding: 50px 80px;
@@ -116,15 +176,6 @@ header {
     grid-area: rightImg; }
   .contenedorHome .leftText {
     grid-area: leftText; }
-  .contenedorHome div p {
-    max-width: 30rem;
-    display: inline-block;
-    font-size: x-large;
-    font-weight: 300;
-    margin-bottom: 70px;
-    color: white;
-    padding-left: 10px;
-    text-shadow: black 0.1em 0.1em 0.2em; }
   .contenedorHome img {
     height: 400px;
     width: 550px;
@@ -183,7 +234,7 @@ header {
       animation-duration: 1s; }
 
 .bodyFaq {
-  text-shadow: 1px 1px 3px black;
+  text-shadow: black 0.1em 0.1em 0.2em;
   font-family: 'Oswald', sans-serif;
   background-image: url(../../Img/fondocatalogo.jpg);
   background-size: cover;
@@ -220,6 +271,30 @@ header {
       .mainFaq .secFaq .map .ubicacion {
         border-radius: 30px; }
 
+.body-i .banner img, .bodyCatalogo .body-i .banner img {
+  background-size: cover;
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  margin-bottom: 50px; }
+
+.body-i .carousel-item, .bodyCatalogo .body-i .carousel-item {
+  background-size: cover;
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  margin-bottom: 10px; }
+
+.contenedorHome div p, main .contenedorNosotros .box p {
+  max-width: 30rem;
+  display: inline-block;
+  font-size: x-large;
+  font-weight: 300;
+  margin-bottom: 70px;
+  color: white;
+  padding-left: 10px;
+  text-shadow: black 0.1em 0.1em 0.2em; }
+
 .bodyNosotros {
   background: url(../../Img/backgroundC.jpg);
   background-size: cover;
@@ -231,7 +306,7 @@ main .titleNosotros {
   justify-content: center;
   margin-bottom: 30px;
   padding-top: 30px;
-  text-shadow: 1px 1px 5px black, -1px -1px 5px black;
+  text-shadow: black 0.1em 0.1em 0.2em;
   font-size: 3rem;
   color: whitesmoke; }
 
@@ -254,29 +329,35 @@ main .contenedorNosotros .box {
     width: 550px;
     border-radius: 1.5rem;
     box-shadow: 1px 1px 5px black; }
-  main .contenedorNosotros .box p {
-    max-width: 30rem;
-    display: inline-block;
-    margin-left: 150px;
-    color: whitesmoke;
-    font-size: 1.5rem; }
+
+.body-i .banner img, .bodyCatalogo .body-i .banner img {
+  background-size: cover;
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  margin-bottom: 50px; }
+
+.body-i .carousel-item, .bodyCatalogo .body-i .carousel-item {
+  background-size: cover;
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  margin-bottom: 10px; }
+
+.contenedorHome div p, main .contenedorNosotros .box p {
+  max-width: 30rem;
+  display: inline-block;
+  font-size: x-large;
+  font-weight: 300;
+  margin-bottom: 70px;
+  color: white;
+  padding-left: 10px;
+  text-shadow: black 0.1em 0.1em 0.2em; }
 
 .bodyCatalogo {
   background: url(../../Img/fondocatalogo.jpg);
   background-size: cover;
   background-attachment: fixed; }
-  .bodyCatalogo .body-i .carousel-item {
-    background-size: cover;
-    box-sizing: border-box;
-    height: 100%;
-    width: 100%;
-    margin-bottom: 10px; }
-  .bodyCatalogo .body-i .banner img {
-    background-size: cover;
-    box-sizing: border-box;
-    height: 100%;
-    width: 100%;
-    margin-bottom: 50px; }
   .bodyCatalogo .tituloC {
     display: flex;
     justify-content: center; }
@@ -296,7 +377,7 @@ main .contenedorNosotros .box {
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 30px;
     align-items: center;
-    padding-left: 250px; }
+    padding-left: 80px; }
     .bodyCatalogo .gridCard article {
       background: #0a141d;
       border: none;
@@ -330,6 +411,30 @@ main .contenedorNosotros .box {
         font-weight: 600;
         text-transform: uppercase;
         cursor: pointer; }
+
+.body-i .banner img, .bodyCatalogo .body-i .banner img {
+  background-size: cover;
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  margin-bottom: 50px; }
+
+.body-i .carousel-item, .bodyCatalogo .body-i .carousel-item {
+  background-size: cover;
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  margin-bottom: 10px; }
+
+.contenedorHome div p, main .contenedorNosotros .box p {
+  max-width: 30rem;
+  display: inline-block;
+  font-size: x-large;
+  font-weight: 300;
+  margin-bottom: 70px;
+  color: white;
+  padding-left: 10px;
+  text-shadow: black 0.1em 0.1em 0.2em; }
 
 @media only screen and (min-width: 320px) and (max-width: 426px) {
   header {

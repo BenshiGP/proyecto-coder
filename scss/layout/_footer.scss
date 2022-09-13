@@ -36,13 +36,13 @@ footer {
 				margin-bottom: 25px;
 				font-size: 25px;
 				text-align: center;
-				text-shadow: black 0.1em 0.1em 0.2em;
+				text-shadow: $shadow;
 			}
 			p {
 				color: $color-p;
 				margin-bottom: 10px;
 				text-align: center;
-				text-shadow: 1px 1px 5px black;
+				text-shadow: $shadow;
 				font-size: 20px;
 			}
 		}
@@ -80,7 +80,7 @@ footer {
 		box-sizing: border-box;
 		small {
 			font-size: 20px;
-			text-shadow: black 0.1em 0.1em 0.2em;
+			text-shadow: $shadow;
 		}
 	}
 }

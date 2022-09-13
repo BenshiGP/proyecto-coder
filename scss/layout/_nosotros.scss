@@ -1,4 +1,6 @@
 @import 'utilities/mixin';
+@import 'utilities/variables';
+@import 'utilities/extend';
 
 .bodyNosotros {
 	background: url(../../Img/backgroundC.jpg);
@@ -13,7 +15,7 @@ main {
 		justify-content: center;
 		margin-bottom: 30px;
 		padding-top: 30px;
-		text-shadow: 1px 1px 5px black, -1px -1px 5px black;
+		text-shadow: $shadow;
 		font-size: 3rem;
 		color: whitesmoke;
 	}
@@ -25,11 +27,7 @@ main {
 				@include img;
 			}
 			p {
-				max-width: 30rem;
-				display: inline-block;
-				margin-left: 150px;
-				color: whitesmoke;
-				font-size: 1.5rem;
+				@extend %text;
 			}
 		}
 	}

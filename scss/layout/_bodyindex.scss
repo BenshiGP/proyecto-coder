@@ -1,22 +1,17 @@
+@import 'utilities/extend';
+@import 'utilities/variables';
+
 .body-i {
 	background: url(../../Img/fondocatalogo.jpg);
 	background-size: cover;
 	background-attachment: fixed;
 
 	.carousel-item {
-		background-size: cover;
-		box-sizing: border-box;
-		height: 100%;
-		width: 100%;
-		margin-bottom: 10px;
+		@extend %carrousel;
 	}
 	.banner {
 		img {
-			background-size: cover;
-			box-sizing: border-box;
-			height: 100%;
-			width: 100%;
-			margin-bottom: 50px;
+			@extend %imgbanner;
 		}
 	}
 
@@ -27,6 +22,6 @@
 		padding-left: 15px;
 		font-size: xx-large;
 		color: rgb(255, 255, 255);
-		text-shadow: black 0.1em 0.1em 0.2em;
+		text-shadow: $shadow;
 	}
 }

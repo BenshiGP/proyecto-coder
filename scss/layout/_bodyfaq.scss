@@ -1,5 +1,7 @@
+@import 'utilities/variables';
+
 .bodyFaq {
-	text-shadow: 1px 1px 3px black;
+	text-shadow: $shadow;
 	font-family: 'Oswald', sans-serif;
 	background-image: url(../../Img/fondocatalogo.jpg);
 	background-size: cover;
