@@ -1,5 +1,4 @@
 @import 'utilities/mixin';
-@import 'utilities/mapas';
 .contenedorHome {
 	@include grid;
 
@@ -10,7 +9,6 @@
 			font-size: x-large;
 			font-weight: 300;
 			margin-bottom: 70px;
-			text-shadow: map-get($map: $standard, $key: border-standard);
 			color: $color-text;
 			padding-left: 10px;
 			text-shadow: black 0.1em 0.1em 0.2em;
