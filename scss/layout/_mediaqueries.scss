@@ -145,7 +145,7 @@
 	}
 
 	.bodyCatalogo {
-		header{
+		header {
 			margin: 4px;
 		}
 		.gridCard {
@@ -172,31 +172,31 @@
 	}
 }
 
-.bodyFaq{
-	.faqTitle{
-		h1{
+.bodyFaq {
+	.faqTitle {
+		h1 {
 			font-size: 2rem;
 		}
 	}
 }
-.mainFaq{
-	.secFaq{
-		.listaFaq{
+.mainFaq {
+	.secFaq {
+		.listaFaq {
 			font-size: 1.2rem;
 		}
-		.faqParrafo{
+		.faqParrafo {
 			font-size: 1.2rem;
 		}
-		.faq{
+		.faq {
 			font-size: 1.5rem;
 		}
 	}
-	.map{
-			iframe{
-				width: 300px;
-				height: 250px;
-				margin-bottom: 20px;
-			}
+	.map {
+		iframe {
+			width: 300px;
+			height: 250px;
+			margin-bottom: 20px;
+		}
 	}
 }
 
@@ -225,17 +225,14 @@
 					}
 
 					.rightText {
-						
 						margin-left: 0;
 					}
 
 					.leftText {
-						
 						margin-left: 0;
 					}
 
 					.rightText2 {
-						
 						margin-left: 0;
 					}
 				}
@@ -243,7 +240,6 @@
 		}
 	}
 }
-
 
 @media screen and (max-width: 768px) {
 	.contenedorHome {
