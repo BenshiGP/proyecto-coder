@@ -1,4 +1,5 @@
 @import 'utilities/extend';
+@import 'utilities/variables';
 
 .bodyCatalogo {
 	background: url(../../Img/fondocatalogo.jpg);
@@ -20,7 +21,7 @@
 		display: flex;
 		justify-content: center;
 		.title {
-			color: whitesmoke;
+			color: $color-text;
 			font-size: 3rem;
 		}
 	}
@@ -29,7 +30,7 @@
 		display: flex;
 		justify-content: center;
 		.relleno {
-			color: whitesmoke;
+			color: $color-text;
 			font-size: 1.5rem;
 			max-width: 35rem;
 		}
@@ -62,7 +63,7 @@
 		}
 		.textCard {
 			padding: 0 20px 20px;
-			color: #fff;
+			color: $color-text;
 			p {
 				text-transform: uppercase;
 				font-size: 15px;
@@ -71,10 +72,10 @@
 				text-transform: uppercase;
 			}
 			button {
-				background: #0f5bd6;
+				background: $color-h;
 				border-radius: 20px;
 				border: none;
-				color: #fff;
+				color: $color-text;
 				padding: 10px;
 				width: 100%;
 				font-weight: 600;
